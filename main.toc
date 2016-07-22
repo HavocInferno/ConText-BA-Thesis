@@ -10,7 +10,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Project description}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Project goal}{1}{section.1.2}
+\contentsline {section}{\numberline {1.2}Project goal}{2}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Research}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -64,8 +64,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.2}...?}{18}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{19}{chapter*.7}
+\contentsline {chapter}{\nonumberline List of Figures}{19}{chapter*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{20}{chapter*.8}
+\contentsline {chapter}{\nonumberline List of Tables}{20}{chapter*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{21}{chapter*.9}
+\contentsline {chapter}{\nonumberline Bibliography}{21}{chapter*.5}

@@ -4,86 +4,99 @@
 \chapter{Introduction}\label{chapter:introduction}
 
 \section{Project description}
+This thesis encompasses the development, documentation and evaluation of the ConText framework. As the title suggests, ConText aims to be a tool that lets the user create text adventures for mobile devices in Unity Technologies' Unity game engine. Considering the ideal usage principles of smartphones and tablets, however, the term "text adventure" needs to be somewhat modified here. The simplest and most intuitive way to navigate interfaces on smartphones is to tap and swipe, as such the games created with ConText fall more in line with choice based adventure games or gamebooks in how they are controlled. The main interest of the chair for Augmented Reality is the usage of this framework for serious, specifically educational games. Additionally, ConText is intended to provide both simplicity so inexperienced users can create a game without the need for specialized knowledge as well as expandability, so developers with existing Unity, C\#, JavaScript or otherwise relevant knowledge can use the framework as a baseline and only need to add whichever additional parts they require. 
+While similar solutions do exist already, the author determined that most of them that were readily and freely available either only offered simplicity or expandability, or were only available for programming languages or barebones tools, thus lacking the immediate potential functionality provided through Unity, such as efficient and extensive 2D and 3D rendering, mobile platform integration and active community support. 
+The framework is a plugin made in and made for the Unity game engine in version 5.x. Development first required research on what existing solutions offered in possibilities, on what existing mobile text adventure games offered in features as well as specialist literature and proceedings on the topics of interactive storytelling, serious games and usability. Development included working out an initial concept, implementing it in Unity with C\# and continuously reiterating and adapting the concept to stepping stones that turned up along the way. 
+A later stage was user studies, which consists of two separate user studies and their respective evaluation regarding the user experience and usability of ConText.
+The sections of this thesis appear in the order this introduction set up, first covering research, followed by development and user studies and concluding with an outlook and evaluation of the thesis results.
+
 \section{Project goal}
-Citation test~\parencite{latex}.
+In the spirit of the project description, the goal of this thesis was to ideally end up with a tool that provides a sufficient baseline for creating mobile text adventures, providing both a simple and intuitive interface for amateur users and a flexible, modular and expandable structure that allows experienced users to add their specific functionality relatively hassle-free. 
+The user studies should provide feedback on what features are prime candidates for included or future implementation and how successful the project was in reaching this goal. 
+Sufficiently reaching the goal would set ConText up for actual public or prolonged use as well as future expansion into a more refined and feature rich framework. 
 
-See~\autoref{tab:sample}, \autoref{fig:sample-drawing}, \autoref{fig:sample-plot}, \autoref{fig:sample-listing}.
 
-\begin{table}[htpb]
-  \caption[Example table]{An example for a simple table.}\label{tab:sample}
-  \centering
-  \begin{tabular}{l l l l}
-    \toprule
-      A & B & C & D \\
-    \midrule
-      1 & 2 & 1 & 2 \\
-      2 & 3 & 2 & 3 \\
-    \bottomrule
-  \end{tabular}
-\end{table}
 
-\begin{figure}[htpb]
-  \centering
-  % This should probably go into a file in figures/
-  \begin{tikzpicture}[node distance=3cm]
-    \node (R0) {$R_1$};
-    \node (R1) [right of=R0] {$R_2$};
-    \node (R2) [below of=R1] {$R_4$};
-    \node (R3) [below of=R0] {$R_3$};
-    \node (R4) [right of=R1] {$R_5$};
 
-    \path[every node]
-      (R0) edge (R1)
-      (R0) edge (R3)
-      (R3) edge (R2)
-      (R2) edge (R1)
-      (R1) edge (R4);
-  \end{tikzpicture}
-  \caption[Example drawing]{An example for a simple drawing.}\label{fig:sample-drawing}
-\end{figure}
-
-\begin{figure}[htpb]
-  \centering
-
-  \pgfplotstableset{col sep=&, row sep=\\}
-  % This should probably go into a file in data/
-  \pgfplotstableread{
-    a & b    \\
-    1 & 1000 \\
-    2 & 1500 \\
-    3 & 1600 \\
-  }\exampleA
-  \pgfplotstableread{
-    a & b    \\
-    1 & 1200 \\
-    2 & 800 \\
-    3 & 1400 \\
-  }\exampleB
-  % This should probably go into a file in figures/
-  \begin{tikzpicture}
-    \begin{axis}[
-        ymin=0,
-        legend style={legend pos=south east},
-        grid,
-        thick,
-        ylabel=Y,
-        xlabel=X
-      ]
-      \addplot table[x=a, y=b]{\exampleA};
-      \addlegendentry{Example A};
-      \addplot table[x=a, y=b]{\exampleB};
-      \addlegendentry{Example B};
-    \end{axis}
-  \end{tikzpicture}
-  \caption[Example plot]{An example for a simple plot.}\label{fig:sample-plot}
-\end{figure}
-
-\begin{figure}[htpb]
-  \centering
-  \begin{tabular}{c}
-  \begin{lstlisting}[language=SQL]
-    SELECT * FROM tbl WHERE tbl.str = "str"
-  \end{lstlisting}
-  \end{tabular}
-  \caption[Example listing]{An example for a source code listing.}\label{fig:sample-listing}
-\end{figure}
+%Citation test~\parencite{latex}.
+%
+%See~\autoref{tab:sample}, \autoref{fig:sample-drawing}, \autoref{fig:sample-plot}, \autoref{fig:sample-listing}.
+%
+%\begin{table}[htpb]
+%  \caption[Example table]{An example for a simple table.}\label{tab:sample}
+%  \centering
+%  \begin{tabular}{l l l l}
+%    \toprule
+%      A & B & C & D \\
+%    \midrule
+%      1 & 2 & 1 & 2 \\
+%      2 & 3 & 2 & 3 \\
+%    \bottomrule
+%  \end{tabular}
+%\end{table}
+%
+%\begin{figure}[htpb]
+%  \centering
+%  % This should probably go into a file in figures/
+%  \begin{tikzpicture}[node distance=3cm]
+%    \node (R0) {$R_1$};
+%    \node (R1) [right of=R0] {$R_2$};
+%    \node (R2) [below of=R1] {$R_4$};
+%    \node (R3) [below of=R0] {$R_3$};
+%    \node (R4) [right of=R1] {$R_5$};
+%
+%    \path[every node]
+%      (R0) edge (R1)
+%      (R0) edge (R3)
+%      (R3) edge (R2)
+%      (R2) edge (R1)
+%      (R1) edge (R4);
+%  \end{tikzpicture}
+%  \caption[Example drawing]{An example for a simple drawing.}\label{fig:sample-drawing}
+%\end{figure}
+%
+%\begin{figure}[htpb]
+%  \centering
+%
+%  \pgfplotstableset{col sep=&, row sep=\\}
+%  % This should probably go into a file in data/
+%  \pgfplotstableread{
+%    a & b    \\
+%    1 & 1000 \\
+%    2 & 1500 \\
+%    3 & 1600 \\
+%  }\exampleA
+%  \pgfplotstableread{
+%    a & b    \\
+%    1 & 1200 \\
+%    2 & 800 \\
+%    3 & 1400 \\
+%  }\exampleB
+%  % This should probably go into a file in figures/
+%  \begin{tikzpicture}
+%    \begin{axis}[
+%        ymin=0,
+%        legend style={legend pos=south east},
+%        grid,
+%        thick,
+%        ylabel=Y,
+%        xlabel=X
+%      ]
+%      \addplot table[x=a, y=b]{\exampleA};
+%      \addlegendentry{Example A};
+%      \addplot table[x=a, y=b]{\exampleB};
+%      \addlegendentry{Example B};
+%    \end{axis}
+%  \end{tikzpicture}
+%  \caption[Example plot]{An example for a simple plot.}\label{fig:sample-plot}
+%\end{figure}
+%
+%\begin{figure}[htpb]
+%  \centering
+%  \begin{tabular}{c}
+%  \begin{lstlisting}[language=SQL]
+%    SELECT * FROM tbl WHERE tbl.str = "str"
+%  \end{lstlisting}
+%  \end{tabular}
+%  \caption[Example listing]{An example for a source code listing.}\label{fig:sample-listing}
+%\end{figure}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.13)  15 JUL 2016 09:02
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.13)  22 JUL 2016 11:15
 entering extended mode
 **./main.tex
 (main.tex
@@ -1669,28 +1669,11 @@ LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
 chapter 1.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 6.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 84.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 85.
-)
-(chapters/02_research.tex [1
+[1
 
 
 
-] [2]
+]) (chapters/02_research.tex [2]
 chapter 2.
 ) (chapters/03_development.tex [3
 
@@ -1905,12 +1888,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49814 strings out of 428409
- 1061616 string characters out of 3159522
- 1652992 words of memory out of 3000000
- 52570 multiletter control sequences out of 15000+200000
- 26994 words of font info for 43 fonts, out of 3000000 for 9000
+ 48998 strings out of 428409
+ 1042823 string characters out of 3159522
+ 1649790 words of memory out of 3000000
+ 51763 multiletter control sequences out of 15000+200000
+ 26680 words of font info for 42 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 75i,19n,100p,10458b,4020s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 75i,19n,83p,10458b,4018s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on main.pdf (28 pages).
