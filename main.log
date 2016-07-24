@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.13)  22 JUL 2016 11:15
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.13)  24 JUL 2016 13:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -1491,31 +1491,31 @@ File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Try loading font information for T1+pplx on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 21.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pplx.fd"
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
 )
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 22.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 21.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 22.
+line 21.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 22.
+ line 21.
 \big@size=\dimen288
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -1527,15 +1527,15 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (main.bbl)
-Package biblatex Info: Reference section=0 on input line 22.
-Package biblatex Info: Reference segment=0 on input line 22.
+Package biblatex Info: Reference section=0 on input line 21.
+Package biblatex Info: Reference segment=0 on input line 21.
 \c@lstlisting=\count373
-Package scrhack Info: undefining \float@addtolists on input line 22.
+Package scrhack Info: undefining \float@addtolists on input line 21.
  ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.13} (current compat level: 1.9).
 
-LaTeX Info: Redefining \microtypecontext on input line 22.
+LaTeX Info: Redefining \microtypecontext on input line 21.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1548,7 +1548,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 21.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1558,9 +1558,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count374
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 
 (main.out) (main.out)
 \@outlinefile=\write6
@@ -1585,9 +1585,9 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 
 )
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 22.
+line 21.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 22.
+line 21.
 
 (pages/cover.tex
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
@@ -1654,7 +1654,7 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10.95> not available
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 36
+Package tocbasic Info: character protrusion at toc deactivated on input line 35
 .
  (main.toc [5
 
@@ -1664,7 +1664,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 36
 \openout7 = `main.toc'.
 
 LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 39.
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 38.
  [6] (chapters/01_introduction.tex
 chapter 1.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
@@ -1678,21 +1678,21 @@ chapter 2.
 ) (chapters/03_development.tex [3
 
 
-]
+] [4]
 chapter 3.
-) (chapters/04_userstudy.tex [4
+) (chapters/04_userstudy.tex [5
 
 
 ]
 chapter 4.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 9.
-) (chapters/05_outlook.tex [5
+) (chapters/05_outlook.tex [6
 
 
 ]
 chapter 5.
-) (chapters/06_appendix.tex [6
+) (chapters/06_appendix.tex [7
 
 
 ]
@@ -1711,7 +1711,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [7
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [8
 
 
 ]
@@ -1726,7 +1726,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [8]
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [9]
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
@@ -1738,7 +1738,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page2> [9]
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page2> [10]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1766,7 +1766,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page1> [10]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page1> [11]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1778,7 +1778,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page2> [11]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page2> [12]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1790,7 +1790,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page3> [12]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page3> [13]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1802,7 +1802,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page4> [13]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page4> [14]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1814,7 +1814,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page5> [14]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page5> [15]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1826,7 +1826,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page6> [15]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page6> [16]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1838,7 +1838,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page7> [16]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page7> [17]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1850,39 +1850,39 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page8> [17])
-[18]
-Package tocbasic Info: character protrusion at lof deactivated on input line 52
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page8> [18])
+[19]
+Package tocbasic Info: character protrusion at lof deactivated on input line 51
 .
  (main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [19
+ [20
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 53
+Package tocbasic Info: character protrusion at lot deactivated on input line 52
 .
  (main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [20
+ [21
 
 
 ]
 chapter without number
 No complaints by nag.
-[21
+[22
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
  (main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 57.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 57.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 56.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 56.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1896,4 +1896,4 @@ Here is how much of TeX's memory you used:
  1328 hyphenation exceptions out of 8191
  75i,19n,83p,10458b,4018s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (28 pages).
+Output written on main.pdf (29 pages).
