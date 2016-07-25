@@ -10,3 +10,26 @@ One game in particular that we think captures the essence of these two sides ver
 This sparked the question about what options are available nowadays for creating this type of game. As looking at related work showed, the readily available options are often lackluster, but also provide valuable insight into what features need to be combined into one tool to provide satisfying overall functionality to both inexperienced and experienced user groups.
 
 \section{Related work}
+When analyzing related work, several categories were sampled. For one other popular text adventure games, both mobile and web based, to see what resonates well with audiences so far. Secondly other frameworks designed for the same or similar purposes, creating text adventures, to see what feature sets are available and seen as worthwhile by developers. Lastly, several specialist literary works on interactive storytelling, serious games and usability. Additionally, some functionality was deduced through logical inference and, frankly, common sense, since some basic features are simply necessary for such a framework to function at all.
+Whenever a game was analyzed, a list of relevant features was extracted and matched up with the existing feature list in order to determine which additions or changes may need be made.
+
+\subsection{Games}
+\paragraph{Lifeline}
+The first game analyzed was Lifeline by Three Minute Games on iOS, as it also posed as inspiration for the thesis. What can be seen in the game is that simplicity is key when aiming for accessibility with a large user group of smartphone users of all skill levels. Lifeline offers a simple structure of 1:1 communication between the player and one game character through a sequential text message stream. The interactive part for the player is reduced to the ability of choosing one of two replies when prompted by the game character every few messages. 
+The story is acted out in real time, or rather with 1:1 time scaling. When the character claims to need several hours for an action, the game will accurately remain inactive for that long and only notify the player once as much time has passed.
+A brief settings menu allows trivial changes such as toggling sounds and music, changing language, and more relevant to the game, to rewind the story to a previously reached decision and to speed up the gameplay by way of reducing UI effects and animation. 
+The player can always scroll back through the entire story and through these settings choose a particular previous state once they have completed one story branch. 
+What could be gathered from Lifeline is that ConText would need at least a basic dialogue system with multiple reply options offered to the user and possibly timed firing, as well as a mechanism to save new and load existing story progress. Additionally, it would need to provide at least a simple UI with potential customization for the user, as well as possibly settings for language support, sounds and the UI.
+\paragraph{Storynexus.com}
+Another sample was taken from a web based service called storynexus.com. Storynexus is a website where users can create and more prominently play text adventures through their web browser. The story "The Thirst Frontier" was chosen for analysis. It is mostly reminiscent of choice adventures or choose-your-own-adventure stories in that the user is guided through a story with partially branching story arcs and with every new page is asked to choose from available options that can include virtual actions or dialogue replies. The story is segmented into locations or chapters of sorts. While it does not offer 1:1 time scaled playback as Lifeline, it does stand out through a more complex item and character quality system that can additionally influence the success of attempted actions or their mere existence. 
+This analysis expands the list of viable features for ConText by a system for splitting the story into chapters, which may not reflect in the created App but for clarity in the framework interface. As a possible secondary feature it promotes extended player properties that influence and are influenced by how the story unfolds, as well as a dedicated inventory for items to be used in gameplay actions. 
+\paragraph{Other}
+Lorem ipsum.
+
+\subsection{Frameworks}
+\paragraph{Quest}
+\paragraph{WibbleQuest}
+\paragraph{Other}
+
+\subsection{Literature}
+\paragraph{...}
