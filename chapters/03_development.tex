@@ -2,7 +2,29 @@
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
 \chapter{Development}\label{chapter:development}
+With research done, the list of proposed features as well as the basic requirements and constraints of the tool had to be compiled into a sound implementation concept. As is usual and likely inevitable for development, changes had to be made over the course of the project and certain obstacles were hit, both covered in the latter two subsections of this chapter.
 
 \section{Concept}
+Constraints presented through the platform the framework is to be built on are mostly bound to Unity engine. Since the Unity toolset only works on x86-based computers running Windows 7 or up or Mac OS X 10.8 or up and requires graphics hardware supporting DirectX 9 with shader model 3.0 or up \cite{SREQ}, the same applies for ConText. Since the source code for ConText is entirely written in C\#, code modification on Mac OS requires an IDE capable of handling C\# such as MonoDevelop. As Unity Technologies put it, "The rest mostly depends on the complexity of your projects", at least for the development system. Depending on the target platform the resulting game is ported to, additional constraints are the availability of the respective devices with sufficiently recent operating system versions.
+With these underlying system requirements given, the ConText framework itself was envisioned as a layered construct with modular structure both internally and externally. Ideally, this would provide a high degree modularity and flexibility. 
+The layered construct borrows an idea similar to that found in standardized system layer definitions with categories of actions and objects in the framework assigned to different layers, with communication or interfacing function calls happening between the layers. This would encapsulate and decouple similar functionality and make it easier to identify and modify or expand specific parts. The following layers are part of the concept:
+\begin{enumerate}
+\item The \textbf{Manager Layer} consists of all managers, which essentially represent the central logic handling the communication, tracking and updating of the game elements. The following managers are part of the Manager Layer:
+	\begin{enumerate}
+	\item The \textbf{Module Manager} which would keep track of all story modules in the storyline, provide functions for loading modules in or out, prompting the Log Manager to trigger log entries and the UI Manager to display modules in the game UI.
+	\item The \textbf{UI Manager} would keep track of the UI objects for instanced story modules, handle scaling of the UI on the playing device and provide functions for displaying story modules, log entries and other info.
+	\item The \textbf{Input Manager}, intended to handle (touch) input and redirect or trigger the according reactions to the respective affected managers.
+	\item The \textbf{State Manager} which would handle saving and loading of story progress, keep track of the current game state and generally juggle the bits of data that don't fit into any of the other managers.
+	\item The \textbf{Log Manager}, to keep track of all log entries and provide functions for loading and updating entries.
+	\end{enumerate}
+	The Input Manager would directly communicate with the Input Layer, the UI Manager with the UI Layer and the Module Manager with the Module Layer.
+\item The \textbf{Input Layer} is very compact and only contains immediate input handling,  basically entirely computed by Unity's internal input handler. As such it might be seen as only a theoretical layer, or at least not an actual layer of ConText itself.
+\item The \textbf{UI Layer} which contains the UI settings, visual ingame representations of the text/story module stream, the log list and a UI wrapper to channel calls and communication of the former to the UI Manager.
+\item The \textbf{Modules Layer} is essentially the whole collection of modules and module instances and directly communicating the the Module Manager to exchange information about next modules and the storyline's elements.
+\end{enumerate}
+Where the layer concept actually differs somewhat from the usual definition of layers is that they don't communicate exclusively vertically. The Modules, Input and UI Layers all communicate with and via the Manager Layer.
+
 \section{Final structure}
+
+
 \section{Stepping stones}

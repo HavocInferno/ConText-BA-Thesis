@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.13)  25 JUL 2016 14:18
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.13)  28 JUL 2016 17:04
 entering extended mode
 **./main.tex
 (main.tex
@@ -1683,17 +1683,23 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 16.
  [4]) (chapters/03_development.tex [5]
 chapter 3.
-) (chapters/04_userstudy.tex [6
+[6
 
 
 ]
+Overfull \hbox (6.4397pt too wide) in paragraph at lines 17--18
+[]\T1/pplx/m/n/10.95 The \T1/pplx/b/n/10.95 State Man-ager \T1/pplx/m/n/10.95 w
+hich would han-dle sav-ing and load-ing of story progress,
+ []
+
+) (chapters/04_userstudy.tex [7]
 chapter 4.
-) (chapters/05_outlook.tex [7
+) (chapters/05_outlook.tex [8
 
 
 ]
 chapter 5.
-) (chapters/06_appendix.tex [8
+) (chapters/06_appendix.tex [9
 
 
 ]
@@ -1712,7 +1718,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [9
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [10
 
 
 ]
@@ -1727,7 +1733,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [10]
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [11]
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
@@ -1739,7 +1745,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page2> [11]
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page2> [12]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1767,7 +1773,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page1> [12]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page1> [13]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1779,7 +1785,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page2> [13]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page2> [14]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1791,7 +1797,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page3> [14]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page3> [15]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1803,7 +1809,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page4> [15]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page4> [16]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1815,7 +1821,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page5> [16]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page5> [17]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1827,7 +1833,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page6> [17]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page6> [18]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1839,7 +1845,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page7> [18]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page7> [19]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1851,15 +1857,15 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page8> [19])
-[20]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page8> [20])
+[21]
 Package tocbasic Info: character protrusion at lof deactivated on input line 51
 .
  (main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [21
+ [22
 
 
 ]
@@ -1869,13 +1875,31 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 52
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [22
+ [23
 
 
 ]
 chapter without number
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplx/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 54.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (7.67372pt too wide) in paragraph at lines 54--54
+[]\T1/pplx/m/n/10.95 Unity Tech-nolo-gies. \T1/pplx/m/it/10.95 SYS-TEM RE-QUIRE
+-MENTS FOR UNITY\T1/pplx/m/n/10.95 . 2016. \T1/pplx/m/sc/10.95 url\T1/pplx/m/n/
+10.95 : []$\T1/cmtt/m/n/10.95 https :
+ []
+
 No complaints by nag.
-[23
+[24
 
 
 ]
@@ -1889,12 +1913,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48999 strings out of 428409
- 1042836 string characters out of 3159522
- 1649790 words of memory out of 3000000
- 51764 multiletter control sequences out of 15000+200000
- 26680 words of font info for 42 fonts, out of 3000000 for 9000
+ 49027 strings out of 428409
+ 1043549 string characters out of 3159522
+ 1649805 words of memory out of 3000000
+ 51786 multiletter control sequences out of 15000+200000
+ 29846 words of font info for 44 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 75i,19n,83p,10458b,4018s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 75i,19n,83p,10458b,4163s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (30 pages).
+Output written on main.pdf (31 pages).
