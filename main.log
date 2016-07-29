@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.13)  28 JUL 2016 17:04
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.13)  29 JUL 2016 14:36
 entering extended mode
 **./main.tex
 (main.tex
@@ -1692,14 +1692,14 @@ Overfull \hbox (6.4397pt too wide) in paragraph at lines 17--18
 hich would han-dle sav-ing and load-ing of story progress,
  []
 
-) (chapters/04_userstudy.tex [7]
+[7] [8] [9]) (chapters/04_userstudy.tex [10]
 chapter 4.
-) (chapters/05_outlook.tex [8
+) (chapters/05_outlook.tex [11
 
 
 ]
 chapter 5.
-) (chapters/06_appendix.tex [9
+) (chapters/06_appendix.tex [12
 
 
 ]
@@ -1718,7 +1718,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [10
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [13
 
 
 ]
@@ -1733,7 +1733,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [11]
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [14]
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
@@ -1745,7 +1745,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page2> [12]
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page2> [15]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1773,7 +1773,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page1> [13]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page1> [16]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1785,7 +1785,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page2> [14]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page2> [17]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1797,7 +1797,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page3> [15]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page3> [18]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1809,7 +1809,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page4> [16]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page4> [19]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1821,7 +1821,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page5> [17]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page5> [20]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1833,7 +1833,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page6> [18]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page6> [21]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1845,7 +1845,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page7> [19]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page7> [22]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1857,15 +1857,15 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page8> [20])
-[21]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page8> [23])
+[24]
 Package tocbasic Info: character protrusion at lof deactivated on input line 51
 .
  (main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [22
+ [25
 
 
 ]
@@ -1875,7 +1875,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 52
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [23
+ [26
 
 
 ]
@@ -1899,7 +1899,7 @@ Overfull \hbox (7.67372pt too wide) in paragraph at lines 54--54
  []
 
 No complaints by nag.
-[24
+[27
 
 
 ]
@@ -1915,10 +1915,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  49027 strings out of 428409
  1043549 string characters out of 3159522
- 1649805 words of memory out of 3000000
+ 1649807 words of memory out of 3000000
  51786 multiletter control sequences out of 15000+200000
  29846 words of font info for 44 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  75i,19n,83p,10458b,4163s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (31 pages).
+Output written on main.pdf (34 pages).
