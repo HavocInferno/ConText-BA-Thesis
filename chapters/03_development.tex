@@ -56,6 +56,25 @@ The Modules layer is implemented almost entirely as envisioned in the concept, w
 \item The \textbf{log entry} which may contain additional information not fit for the message itself and which can then be viewed in the Log view.
 \item The \textbf{next module} analogously to the previous module specifying which module comes next. Depending on the module type, there can be multiple next modules, such as with the Reply module. To note here is that implementation is subpar as a single next module is part of the basic module type, but multiple next modules are additions made only to the code of branching modules. A proposed change is that next modules be a list with variable length in order to enable better compatibility with calls working with next module data.
 \end{enumerate}
-%TODO: structural runthrough of how modules communicate, perhaps an example
+
+The communication procedure for message modules is best explained through an example. Assumed be the following parameters: 
+\begin{enumerate}
+\item The framework is correctly configured. 
+\item The story consists of the modules 
+	\begin{enumerate}
+	\item M1-T of type Text Module, 
+	\item M2-R of type Reply Module and 
+	\item three Mi-T of type Text Module with 3 <= i <= 5, 
+	\end{enumerate}
+with M2-R being the successor to M1-T and M3-T, M4-T and M5-T as the replies outgoing from M2-R. 
+\item Playback starts with M1-T as the first story module.
+\end{enumerate}
+Once the story playback is started, the module manager will initiate the automatic text stream. As the first module is specified as M1-T, the manager will access M1-T to grab the sending delay and message sounds to delay the message firing accordingly and trigger then sound. Then it will pass the module object to the UI manager for instancing. 
+The UI manager attempts to find the correct UI template mapping for M1-T's type and instance a GameObject using the template. Next the module's setContent function will be called with the template instance as a parameter in order to input its specific message info into the UI instance. The details of this are down to the specific type, but for the case of M1-T, the setContent function will put the message's sender and message send time at the top of the message bubble, the message text as the main text portion and adjust width and side padding for correct alignment, quite like a text bubble in a common messenger app. Once the content is set, the UI manager takes over again and adds the instance into the Text View's scroll area, scrolls to the bottom to make the new module the latest displayed and finally adds the instance to the module manager's list of instanced messages.
+At this point, control is returned to the module manager. With M1-T's instancing completed, the automatic stream attempts to grab the next module in line via the getNextPart function implemented in each module type's class. This will return whichever module is set as the next module or a null return. When null is returned, the automatic stream will stop and be halted until something starts it again, such as specific user input. In M1-T's case, the call will return M2-R. 
+The automatic text stream's loop starts from the top again, computing M2-R's UI template mapping, waiting the send delay, playing the message sound and handing over the module to the UI manager. Once the content is set for M2-R, the module manager will again request the next module. This time the call will return null as the Reply module offers reply choices to the player and does not know the next module until the player has made a choice. Once the player chooses an option, the corresponding option will call the restart function of the module manager which will continue the automatic stream with the now known next module. 
+As such, the stream loop will again start from the top with M3-T, M4-T or M5-T. 
+A similar system is used when loading previously saved story progress, excluding any sending delays or user input interrupts. 
+%TODO: graph, illustration of this example.
 
 \section{Stepping stones}
