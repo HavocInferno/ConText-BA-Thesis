@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.13)  1 AUG 2016 18:24
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.13)  3 AUG 2016 13:21
 entering extended mode
 **./main.tex
 (main.tex
@@ -1694,12 +1694,12 @@ hich would han-dle sav-ing and load-ing of story progress,
 
 [7] [8] [9] [10] [11] [12]) (chapters/04_userstudy.tex [13]
 chapter 4.
-) (chapters/05_outlook.tex [14
+[14
 
 
-]
+] [15]) (chapters/05_outlook.tex [16]
 chapter 5.
-) (chapters/06_appendix.tex [15
+) (chapters/06_appendix.tex [17
 
 
 ]
@@ -1718,7 +1718,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [16
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [18
 
 
 ]
@@ -1733,7 +1733,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [17]
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page1> [19]
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
@@ -1745,7 +1745,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page2> [18]
+<use  "./Appendices/Documentation_UserStudy1_English.pdf"  page2> [20]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1773,7 +1773,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page1> [19]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page1> [21]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1785,7 +1785,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page2> [20]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page2> [22]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1797,7 +1797,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page3> [21]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page3> [23]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1809,7 +1809,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page4> [22]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page4> [24]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1821,7 +1821,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page5> [23]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page5> [25]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1833,7 +1833,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page6> [24]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page6> [26]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1845,7 +1845,7 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page7> [25]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page7> [27]
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
@@ -1857,15 +1857,15 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type QTm)
 
 
-<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page8> [26])
-[27]
+<use  "./Appendices/Documentation_UserStudy2_English.pdf"  page8> [28])
+[29]
 Package tocbasic Info: character protrusion at lof deactivated on input line 51
 .
  (main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [28
+ [30
 
 
 ]
@@ -1875,7 +1875,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 52
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [29
+ [31
 
 
 ]
@@ -1899,7 +1899,7 @@ Overfull \hbox (7.67372pt too wide) in paragraph at lines 54--54
  []
 
 No complaints by nag.
-[30
+[32
 
 
 ]
@@ -1915,10 +1915,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  49029 strings out of 428409
  1043611 string characters out of 3159522
- 1649819 words of memory out of 3000000
+ 1649833 words of memory out of 3000000
  51788 multiletter control sequences out of 15000+200000
  29846 words of font info for 44 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  75i,19n,83p,10458b,4162s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (37 pages).
+Output written on main.pdf (39 pages).
