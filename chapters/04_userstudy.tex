@@ -2,7 +2,7 @@
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
 \chapter{Accessibility and user perception}\label{chapter:userstudy}
-In order to determine the quality of the ConText framework, the accessibility for both experienced and inexperienced users and the quality of the general user experience, user studies needed to be conducted. 
+In order to determine the quality of the ConText framework, the accessibility for both experienced and inexperienced users and the quality of the general user experience, user studies needed to be conducted. The studies did not conform to a given standard, however we do not consider this an issue for two reasons, 1) the sample size is too small for numeric statistics to provide meaningful accurate insight, 2) they were not intended to provide definite statistics to compare the framework to other solutions on the market that would use standardized evaluation formats, but instead to get an idea of whether the framework works as designed, more akin to a focus group survey sans active monitoring. A larger and standardized study would be appropriate for a more polished version of the framework in the future. 
 
 \section{Study procedure}
 The quality evaluation for ConText consisted of two consecutive user studies, the procedure for which was essentially identical. Participants were selected and invited to take part in the study, with a small number planned for the first study to get an initial idea of the user perception and qualitative direction the framework was headed at that point in development and a larger number of participants intended for the second study that would evaluate the progress and changes made between both studies and provide more differentiated  feedback. Due to time constraints and unfortunate circumstances, however, the second user study did not work out as intended and only returned very lackluster results. A more elaborate rundown of the issue is provided in section 4.3.
@@ -19,7 +19,6 @@ Part 2 is a step by step walkthrough to creating a sample game with the framewor
 
 \section{First user study}
 The first user study had five participants out of seven invited. All participants were given four days as well as all aforementioned files to create a small game, fill out the survey and send their feedback. The statistics and results of the study are discussed in the following paragraphs, sorted by their order within the survey sheet.
-\subsection{Evaluation and results (del)}
 \paragraph{Basics} TODO.
 \paragraph{Interface} TODO.
 \paragraph{Performance} TODO.
@@ -28,6 +27,15 @@ The first user study had five participants out of seven invited. All participant
 \paragraph{Additional} TODO.
 
 \section{Second user study}
-TODO.
-\subsection{Changes (del)}
-\subsection{Evaluation and results (del)}
+\paragraph{Changes} With the results of the first user study evaluated, several changes and adaptions were made in the framework, mostly related to usability improvements. For one, the various segments representing module data in the module inspectors were put into foldouts so users would not be overwhelmed by the plethora of options at first sight but could instead choose step by step what they configure along with controls for opening and closing all open or closed foldouts at once. Additionally, more hints were added to mark critical missing info. A major refactor attempt highly improved the custom module inspector heritage structuring and made it more accessible to programmers. 
+The ConText Overview window was renamed as ConText Options and the various options in renamed and reordered to be grouped according to functional purpose and given updated optional hints so their purpose would be more easily identified at first sight. 
+Game sound settings were added to the game, consisting of a default message sound to be played for each message fired, a unique sound a message can play on its own as well as a background track to be played in loop. 
+Lastly, a test run on Android was done as in a short story was set up and ported to an Android device in development mode to verify that the existing systems would work on the mobile platform as the second user study would allow the participants to test on Android as well. 
+\paragraph{Basics} TODO.
+\paragraph{Interface} TODO.
+\paragraph{Performance} TODO.
+\paragraph{Documentation/Tutorial} TODO.
+\paragraph{General impression} TODO.
+\paragraph{Additional} TODO.
+
+\paragraph{After the second user study} One often requested and initially planned feature was a visual representation of the entire story within the editor. The intuitive ideal representation is a visual graph with story modules as nodes and their connections as edges. Thus such a system was put in place towards the end of the project, unfortunately after the second user study though. The node viewer added to the framework does not offer a lot of interactivity yet, upon opening it the user is presented with an image as described with the message modules shown as graph nodes displaying the content and character and an edge connecting it to its previous and next modules' nodes. A button within each node lets the user jump straight to that module in the inspector window. A small control in the upper left of the node viewer lets the user pan left, right, up and down as well as reset to the origin, a control at the top makes the viewer reset and redraw the graph.
