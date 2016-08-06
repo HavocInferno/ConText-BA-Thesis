@@ -14,26 +14,31 @@ When analyzing related work, several categories were sampled. For one other popu
 Whenever a game was analyzed, a list of relevant features was extracted and matched up with the existing feature list in order to determine which additions or changes may need be made.
 
 \subsection{Games}
-\paragraph{Lifeline}
+\paragraph{Lifeline} %TODO: SOURCE
 The first game analyzed was Lifeline by Three Minute Games on iOS, as it also posed as inspiration for the thesis. What can be seen in the game is that simplicity is key when aiming for accessibility with a large user group of smartphone users of all skill levels. Lifeline offers a simple structure of 1:1 communication between the player and one game character through a sequential text message stream. The interactive part for the player is reduced to the ability of choosing one of two replies when prompted by the game character every few messages. 
 The story is acted out in real time, or rather with 1:1 time scaling. When the character claims to need several hours for an action, the game will accurately remain inactive for that long and only notify the player once as much time has passed.
 A brief settings menu allows trivial changes such as toggling sounds and music, changing language, and more relevant to the game, to rewind the story to a previously reached decision and to speed up the gameplay by way of reducing UI effects and animation. 
 The player can always scroll back through the entire story and through these settings choose a particular previous state once they have completed one story branch. 
 What could be gathered from Lifeline is that ConText would need at least a basic dialogue system with multiple reply options offered to the user and possibly timed firing, as well as a mechanism to save new and load existing story progress. Additionally, it would need to provide at least a simple UI with potential customization for the user, as well as possibly settings for language support, sounds and the UI.
-\paragraph{Storynexus.com}
+\paragraph{Storynexus.com} %TODO: SOURCE
 Another sample was taken from a web based service called storynexus.com. Storynexus is a website where users can create and more prominently play text adventures through their web browser. The story "The Thirst Frontier" was chosen for analysis. It is mostly reminiscent of choice adventures or choose-your-own-adventure stories in that the user is guided through a story with partially branching story arcs and with every new page is asked to choose from available options that can include virtual actions or dialogue replies. The story is segmented into locations or chapters of sorts. While it does not offer 1:1 time scaled playback as Lifeline, it does stand out through a more complex item and character quality system that can additionally influence the success of attempted actions or their mere existence. 
 This analysis expands the list of viable features for ConText by a system for splitting the story into chapters, which may not reflect in the created App but for clarity in the framework interface. As a possible secondary feature it promotes extended player properties that influence and are influenced by how the story unfolds, as well as a dedicated inventory for items to be used in gameplay actions. 
-\paragraph{Other (?)}
-TODO. e.g. Moritz Becher's Ludus? prime reference actually
+\paragraph{Ludus} %TODO: SOURCE
+A prime candidate for consideration was TUM student Moritz Becher's \textit{Ludus}, another Bachelor's Thesis building on a very similar topic as this one. Ludus is a mobile text adventure game set in ancient Rome and designed to teach the player historical facts about the setting. It was actually developed under the same supervisor and for the same overall topic of educational serious games. The game itself was not directly analyzed, instead Becher was contacted and asked about his ideas on what features this framework would need and which features he deemed useful for his project. As a result, some of his concepts for internal structures such as the decoupling and communication of story and user interface served as inspiration for some of ConText's systems. Over the course of development the framework actually diverged from these concepts again, however. Additionally, Becher participated in the second user study given his thesis essentially qualifies him as an expert on the subject. 
 
 \subsection{Frameworks}
-\paragraph{Quest}
+\paragraph{Quest} %TODO: SOURCE
 TODO.
-\paragraph{WibbleQuest}
+\paragraph{WibbleQuest} %TODO: SOURCE
 TODO.
 
 \subsection{Literature}
+Specialist literature was used to help determine what other international projects and papers deem necessary or beneficial to watch out for when creating tools designed to create text adventures. 
 \paragraph{On E-Learning, Edutainment and Interactive Storytelling technology}
-TODO.
+In order to get such an idea specifically related to educational and serious games, proceedings from several conferences on the topic were consulted. In one such volume from \cite{ELEARN}, Danu Pranantha et al. while developing a HTML5 framework for creating serious games suggest categorization of serious game creation tools and their development into \glqq 1) the development of platform for ease to use game creation using pre-created game props 2) the use of advanced web technologies to develop browser games which offers cross platform capability\grqq (sic!)\cite{ELEARN1}. Additionally, they acknowledge in the prior sentence that game engines exist and can serve as a base platform for such tools. Thus, ConText could be categorized as following approach 1 while using Unity engine as a base. In that same sentence, Pranantha et al. also raise concerns about the cross platform capabilities and issues of using an existing engine, which we deem outdated at this point, however, as in the four years between the proceedings and this thesis, cross platform capabilities of the Unity engine have been greatly improved and verified to work well in conjunction with ConText's features and a deployed game created with it in an internal test. Overall, similar categorization is also suggested by various other efforts in the consulted material and ConText fits as a plugin system for a widely available existing game engine. The advantages of this design are that the low level components such as rendering, input handling, etc. are covered, that a large community as well as detailed documentation are available and that through this community, some potential users are easier to reach. 
+
+%TODO: Edutainment Tech book
+
+Diving into proceedings on interactive storytelling also yielded some helpful directions, in the case of \cite{ISTORY} and \cite{ISTORY1} specifically on user experience testing. While the paper itself actually targets methods for successful story authoring, one key point is user experience, that "The User Experience is crucial". In it, Koenitz writes that user studies should deliberately "cast the net as wide as possible and try to avoid techno-savvy users"\cite[p.~135]{ISTORY} as those do not already appreciate the studied artifact for technical aspects but instead judge from the viewpoint of someone without preexisting knowledge and as such more akin to the common average user. This also promises to bring more attention to lackluster UI simplicity as these users would not be as used to complex interfaces.
 \paragraph{On usability and user experience}
 TODO.

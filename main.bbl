@@ -19,11 +19,97 @@
 
 \refsection{0}
   \sortlist[entry]{anyt/global/}
+    \entry{ISTORY}{proceedings}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=97101acb4b5fdac16962155f89dbdd0f}{%
+           family={{Alex Mitchell et al.}},
+           family_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{97101acb4b5fdac16962155f89dbdd0f}
+      \strng{fullhash}{97101acb4b5fdac16962155f89dbdd0f}
+      \field{labelalpha}{Ale14}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Interactive Storytelling - 7th International Conference on Interactive Digital Storytelling, ICIDS 2014, Singapore, Singapore, November 3-6, 2014}
+      \field{volume}{7}
+      \field{year}{2014}
+    \endentry
+    \entry{ELEARN1}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=125c1276afe25910bef91c150afd4d17}{%
+           family={{Danu Pranantha et al.}},
+           family_i={D\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=00128ed829a03a7bd1f8447719a3237e}{%
+           prefix={et},
+           prefix_i={e\bibinitperiod},
+           family={al.},
+           family_i={a\bibinitperiod},
+           given={Stefan\bibnamedelima Göbel},
+           given_i={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{125c1276afe25910bef91c150afd4d17}
+      \strng{fullhash}{125c1276afe25910bef91c150afd4d17}
+      \field{labelalpha}{Dan12}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{E-Learning and Games for Training, Education, Health and Sports}
+      \field{title}{Puzzle-it: An HTML5 Serious Games Platform for Education}
+      \field{volume}{7}
+      \field{year}{2012}
+    \endentry
+    \entry{ISTORY1}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c421aba5ab81f66eaba639fc6c405745}{%
+           family={{Hartmut Koenitz}},
+           family_i={H\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=cfbed0e91f900576d2fee4b70d4aeec8}{%
+           prefix={et},
+           prefix_i={e\bibinitperiod},
+           family={al.},
+           family_i={a\bibinitperiod},
+           given={Alex\bibnamedelima Mitchell},
+           given_i={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{c421aba5ab81f66eaba639fc6c405745}
+      \strng{fullhash}{c421aba5ab81f66eaba639fc6c405745}
+      \field{labelalpha}{Har14}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Interactive Storytelling}
+      \field{title}{Five Theses for Interactive Digital Narrative}
+      \field{volume}{7}
+      \field{year}{2014}
+    \endentry
     \entry{U3DC1}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=231af445874efdb234ea54159f2f9774}{%
            family={runevision},
            family_i={r\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{organization}{1}{%
+        {Unity Technologies}%
       }
       \strng{namehash}{231af445874efdb234ea54159f2f9774}
       \strng{fullhash}{231af445874efdb234ea54159f2f9774}
@@ -33,16 +119,45 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Why doesn't Layout Element have Max values?}
+      \field{urlday}{01}
+      \field{urlmonth}{08}
+      \field{urlyear}{2016}
       \field{year}{2014-2016}
       \verb{url}
       \verb http://forum.unity3d.com/threads/why-doesnt-layout-element-have-max-values.274221/#post-1816127
       \endverb
+    \endentry
+    \entry{ELEARN}{proceedings}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=04952bbb02e17d1b92b23d7b1d7d354a}{%
+           family={{Stefan Göbel et al.}},
+           family_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{04952bbb02e17d1b92b23d7b1d7d354a}
+      \strng{fullhash}{04952bbb02e17d1b92b23d7b1d7d354a}
+      \field{labelalpha}{Ste12}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{E-Learning and Games for Training, Education, Health and Sports - 7th International Conference, Edutainment 2012 and 3rd International Conference, GameDays 2012, Darmstadt, Germany, September 18-20, 2012}
+      \field{volume}{7}
+      \field{year}{2012}
     \endentry
     \entry{SREQ}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=4d09de8c70d9a0e1c44cc53ff3b79afa}{%
            family={{Unity Technologies}},
            family_i={U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{organization}{1}{%
+        {Unity Technologies}%
       }
       \strng{namehash}{4d09de8c70d9a0e1c44cc53ff3b79afa}
       \strng{fullhash}{4d09de8c70d9a0e1c44cc53ff3b79afa}
