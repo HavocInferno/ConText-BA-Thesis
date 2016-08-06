@@ -26,6 +26,7 @@ Where the layer concept actually differs somewhat from the usual definition of l
 \paragraph{Modules} The initial concept did not contain specific implementation details for the inner logic of individual parts, however the internal messages were defined as far as that they were to be designed as modules, with each module encapsulating one message and containing pointers to both the previous and next modules, akin to a double-linked list, the message data such as the respective sending character, the message content and a unique message ID and functions interfacing in a given way with the managers. 
 
 As such, the user would be able to plug together the story with a list of these modules, or even expand the system with their own modules if they want specific functionality. It would only require them to implement the specific details of the interfacing functions to work in line with the module system. 
+\paragraph{Editor interface} While the previous paragraphs specify the structure of the framework's systems and offerings, there was also considerations to be made for the interface provided to the developers and users. As ConText is a Unity plugin/package, it is informally bound to the established design used by Unity in order to be more accessible and seamlessly integrated into the engine during use. This mostly targets spatial arrangement and sizing of windows such as the inspectors and the ConText Options, as well to a degree the arrangement and design of controls within each window. For the initial concept, however, no specific constraints were yet set for the detailed presentation of information and as such started out as a vaguely ordered list of options and data controls.
 
 \section{Final structure}
 Regarding the final structure of the ConText framework an overview with consideration of the differences is presented first, followed by a more detailed look at perhaps the most central part, the message module system. 
@@ -76,6 +77,7 @@ The automatic text stream's loop starts from the top again, computing M2-R's UI 
 As such, the stream loop will again start from the top with M3-T, M4-T or M5-T. 
 A similar system is used when loading previously saved story progress, excluding any sending delays or user input interrupts. 
 %TODO: graph, illustration of this example.
+\paragraph{Editor interface} Through reiteration, user feedback and user experience and usability research, the editor interface was transformed from the continuously grown messy list of data controls and options in some of the ConText windows to a more clean looking appearance with logical order and structuring and visual decoupling as well as hiding and layered display to reduce the visible clutter and complexity.
 
 \section{Stepping stones}
 Along the way, development of ConText stumbled across a few difficulties, posed by discrepancies between the concept and expected implementation versus the viable possibilities offered through Unity as well as general concept insufficiency. 
