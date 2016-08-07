@@ -1,15 +1,15 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
 [0] Config.pm:346> INFO - Logfile is 'main.blg'
-[47] biber-MSWIN32:290> INFO - === 
-[77] Biber.pm:351> INFO - Reading 'main.bcf'
-[212] Biber.pm:776> INFO - Found 6 citekeys in bib section 0
-[230] Biber.pm:3493> INFO - Processing section 0
-[256] Biber.pm:3657> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[260] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[262] bibtex.pm:1048> INFO - Found BibTeX data source 'bibliography.bib'
-[304] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[304] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[304] Biber.pm:3306> INFO - Sorting list 'anyt/global/' of type 'entry' with scheme 'anyt' and locale 'en-US'
-[304] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
-[312] bbl.pm:526> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[314] bbl.pm:619> INFO - Output to main.bbl
+[30] biber-MSWIN32:290> INFO - === 
+[51] Biber.pm:351> INFO - Reading 'main.bcf'
+[144] Biber.pm:776> INFO - Found 6 citekeys in bib section 0
+[156] Biber.pm:3493> INFO - Processing section 0
+[175] Biber.pm:3657> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[177] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[178] bibtex.pm:1048> INFO - Found BibTeX data source 'bibliography.bib'
+[207] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[207] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[207] Biber.pm:3306> INFO - Sorting list 'anyt/global/' of type 'entry' with scheme 'anyt' and locale 'en-US'
+[207] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[214] bbl.pm:526> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[216] bbl.pm:619> INFO - Output to main.bbl

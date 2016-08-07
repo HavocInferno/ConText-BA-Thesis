@@ -19,27 +19,146 @@ Part 2 is a step by step walkthrough to creating a sample game with the framewor
 
 \section{First user study}
 The first user study had five participants out of seven invited. The participants were recruited from other students at TUM, students at Ludwig-Maximilian-University (LMU) in Munich and personal acquaintances. All participants were given four days as well as all aforementioned files to create a small game, fill out the survey and send their feedback. The statistics and results of the study are discussed in the following paragraphs, sorted by their order within the survey sheet.
-\paragraph{Basics} TODO.
-\paragraph{Interface} TODO.
-\paragraph{Performance} TODO.
-\paragraph{Documentation/Tutorial} TODO.
-\paragraph{General impression} TODO.
-\paragraph{Additional} TODO.
+For each segment when numerical rating data is used, the arithmetic average and standard deviation were calculated and rounded to the second increment using Excel 2016 with STDEV.P for the deviation as the entire population is known and given.
+\paragraph{Basics} 
+Starting out with the Basics segment, the noteworthy data is about age, time spent with the framework, preexisting development and writing skills and to a degree the hardware used by the participants. User names are omitted for privacy reasons. 
+As there were only five participants in this first study, the numbers do not have a high statistical value, but give an idea of the study audience which can help interpret the qualitative feedback. The average age was 30.75 years with a standard deviation of 18.84 years. Except for one outlier, all participants were in their early twenties. The average time spent with the framework was 1.38 hours (std. dev. 0.99 hours), indicating most participants stopped using ConText after finishing the study tutorial.
+\begin{table}[htpb]
+  \centering
+  \begin{tabular}{r|l l}
+       & \textbf{age} (yrs) & \textbf{time} (hrs) \\
+    \midrule
+      user 1 & 59 & 3 \\
+      user 2 & 22 & 2 \\
+      user 3 & 21 & 1 \\
+      user 4 & 21 & 0.5 \\
+      user 5 & - & 0.416 \\
+      avg & 30.75 & 1.38 \\
+      std. deviation & 16.32 & 0.99 \\
+    \bottomrule
+  \end{tabular}
+  \caption[User study \#{}1 user age/time spent]{User age and framework usage duration: avg. and std. deviation for user study 1.}\label{tab:u1_age}
+\end{table}
+Two participants claimed existing and recent game development skills, one other claimed "solid knowledge about story writing", otherwise all participants denied further knowledge.
+The computers used by the participants mostly used modern desktop Intel Core i5 and i7 processors with at least 16 gigabytes of memory and graphics cards equal to or stronger than an Nvidia GeForce GTX 970, with one outlier using a low power Intel Core i5 mobile SKU, 4 gigabytes of memory and integrated graphics. All systems used Windows 8.1 or 10 as well as Unity engine in version 5.3.4f1.
+\paragraph{Interface} The interface segment consisted of four questions about the user interface quality, intuitiveness and spatial arrangement that prompted the participants to rate the queried aspect on a scale from 1 to 7 and possibly elaborate on reasons for their rating. A fifth task asked the participants to describe the workflow they experienced.
+The questions were:
+\begin{enumerate}
+\item[\textbf{I1}] On a scale from 1 (worst) to 7 (best), how intuitive did you find the framework to be? (e.g. immediate understanding of features, functions, processes)
+\item[\textbf{I2}] On a scale from 1 (worst) to 7 (best), rate the spatial arrangement of framework items (i.e. the placement of the different windows within the tool; e.g. Overview Window,
+Inspector/Settings Window, preview, Hierarchy window, Project/Asset folder view)
+\item[\textbf{I3}] On a scale from 1 (worst) to 7 (best), rate the naming of framework items (Overview Window, Inspector/Settings Window, preview, Hierarchy window, Project/Asset folder
+view)
+\item[\textbf{I4}] On a scale from 1 (worst) to 7 (best), rate the complexity of the framework items (e.g. bad if windows were overloaded, oddly sorted, etc.)
+\end{enumerate}
+The ratings given for these four questions were:
+\begin{table}[htpb]
+  \centering
+  \begin{tabular}{r|l l l l}
+       & \vtop{\hbox{\strut \textbf{I1}}\hbox{\strut {\scriptsize intuitiveness}}} 
+       & \vtop{\hbox{\strut \textbf{I2}}\hbox{\strut {\scriptsize spatial arr.}}} 
+       & \vtop{\hbox{\strut \textbf{I3}}\hbox{\strut {\scriptsize naming}}} 
+       & \vtop{\hbox{\strut \textbf{I4}}\hbox{\strut {\scriptsize complexity}}} \\
+    \midrule
+      user 1 & 3 & 7 & 7 & 7 \\
+      user 2 & 2 & 5 & 3 & 3 \\
+      user 3 & 4 & 4 & 6 & 2 \\
+      user 4 & 5 & 6 & 4 & 3 \\
+      user 5 & 7 & 4 & 5 & 6 \\
+      avg & \textbf{4.2} & \textbf{5.2} & \textbf{5} & \textbf{4.2} \\
+      std. deviation & 1.72 & 1.17 & 1.41 & 1.94 \\
+    \bottomrule
+  \end{tabular}
+  \caption[User study \#{}1 interface rating]{Interface aspect ratings (in x out of 7)}\label{tab:u1_ifac}
+\end{table}
+Looking at these ratings, one can tell that perception of the framework's interface was mediocre to moderately positive. 
+Among the qualitative responses explaining the ratings, common opinions and criticism on the interface were that
+\begin{itemize}
+\item Intuitiveness was hurt by an overload of information presented at first sight and confusing structure
+\item The framework windows and controls are neatly arranged and most are appropriately named
+\item It was not fully clear at first sight what each window's purpose or relevance is
+\item A (graph) visualization of the storylines would greatly improve the user's overview of the creation
+\end{itemize}
+\paragraph{Performance} Performance ratings were divided into 
+\begin{enumerate}
+\item[\textbf{P1}] On a scale from 1 (far too long) to 7 (fine), rate the saving and loading times of the frameworkitself(e.g. perceived hickups/stuttering when creating modules, changing settings, etc.)
+\item[\textbf{P2}] On a scale from 1 (very stuttery) to 7 (fully smooth), rate the framerate of the game (in previewmode)(i.e. how visually smooth did the game run)
+\item[\textbf{P3}] On a scale from 1 (very slow) to 7 (very quick), rate the responsiveness of the interface(e.g. how quickly did the framework react to your input)
+\end{enumerate}
+\begin{table}[htpb]
+  \centering
+  \begin{tabular}{r|l l l}
+       & \vtop{\hbox{\strut \textbf{P1}}\hbox{\strut {\scriptsize save/load}}} 
+       & \vtop{\hbox{\strut \textbf{P2}}\hbox{\strut {\scriptsize game framerate}}} 
+       & \vtop{\hbox{\strut \textbf{P3}}\hbox{\strut {\scriptsize response time}}} \\
+    \midrule
+      user 1 & 7 & 7 & 7 \\
+      user 2 & 5 & 6 & 6 \\
+      user 3 & 7 & 7 & 7 \\
+      user 4 & 7 & 7 & 6 \\
+      user 5 & 7 & 7 & 7 \\
+      avg & \textbf{6.6} & \textbf{6.8} & \textbf{6.6} \\
+      std. deviation & 0.8 & 0.4 & 0.49 \\
+    \bottomrule
+  \end{tabular}
+  \caption[User study \#{}1 performance rating]{Performance ratings (in x out of 7)}\label{tab:u1_perf}
+\end{table}
+Given these values, it can be assumed the framework did not show any significant bottlenecks, and matching the data with the used computers, user 2's comparatively lower ratings can be attributed to them using the aforementioned low power mobile machine. However even with such a low performance machine, the experience was still rated acceptable. 
+The only common complaint named the initial loading process duration of the Unity engine as an issue.
+On a sidenote, one participant responded that they did not understand they were creating a game, indicating the first revision of the tutorial did not make this information entirely clear.
+\paragraph{Documentation/Tutorial} 
+The documentation and tutorial segment only contained one rating, namely 
+\begin{enumerate}
+\item[\textbf{D1}] On a scale from 1 (very vague) to 7 (very detailed), rate the detail of the provided documentation
+\end{enumerate}
+\begin{table}[htpb]
+  \centering
+  \begin{tabular}{r|l}
+       & \vtop{\hbox{\strut \textbf{D1}}\hbox{\strut {\scriptsize detail}}} \\
+    \midrule
+      user 1 & 5 \\
+      user 2 & 7 \\
+      user 3 & 7 \\
+      user 4 & 4 \\
+      user 5 & 6 \\
+      avg & \textbf{5.8} \\
+      std. deviation & 1.17 \\
+    \bottomrule
+  \end{tabular}
+  \caption[User study \#{}1 documentation rating]{Documentation and tutorials ratings (in x out of 7)}\label{tab:u1_doc}
+\end{table}
+The given ratings suggest adequate detail was provided in the documentation and tutorial, though considering the average time spent with the framework, it stands to reason that none of the participants delved deep enough into ConText to need much documentation. 
+Qualitative assessments include, among others, that 
+\begin{itemize}
+\item A schematic overview of the framework's structure and principle is missing
+\item Some steps used language too technical for the common user
+\item The sequential nature of the tutorial fits very well, but some steps need more atomic explanation
+\end{itemize}
+When asked about what type of tutorial the users would prefer - such as textual, videos, in-tool walkthrough or mixed - two each responded they would like video instructions and walkthroughs within the framework. Unfortunately, time limitations did not allow for either of these to be created. 
+\paragraph{General impression \& Additional} 
+The second to last and last segment asked the participants to freely describe the overall experience they had using the framework, to which the responses essentially summarized the individual criticism raised in prior segments. The documentation and tutorial lacked a schematic overview, the individual steps proved too technical and complex in some cases and the interface too cluttered to be intuitive, eventually leading to a degree of frustration. 
 
 \section{Second user study}
 \paragraph{Changes} With the results of the first user study evaluated, several changes and adaptions were made in the framework, mostly related to usability improvements. For one, the various segments representing module data in the module inspectors were put into foldouts so users would not be overwhelmed by the plethora of options at first sight but could instead choose step by step what they configure along with controls for opening and closing all open or closed foldouts at once. Additionally, more hints were added to mark critical missing info. A major refactor attempt highly improved the custom module inspector heritage structuring and made it more accessible to programmers. 
 The ConText Overview window was renamed as ConText Options and the various options in renamed and reordered to be grouped according to functional purpose and given updated optional hints so their purpose would be more easily identified at first sight. 
 Game sound settings were added to the game, consisting of a default message sound to be played for each message fired, a unique sound a message can play on its own as well as a background track to be played in loop. 
+Both the tutorial and documentation received an overhaul with several tutorial steps split up into smaller steps with more accompanying images and explanation and the documentation going into far more detail on each core system. 
 Lastly, a test run on Android was done as in a short story was set up and ported to an Android device in development mode to verify that the existing systems would work on the mobile platform as the second user study would allow the participants to test on Android as well. 
 Participants for the second user study were recruited primarily from attendees of the regularly held FAR Story Stammtisch event at TUM, other students at TUM and eventually in a last effort from online communities.
 \paragraph{Lack of participants} Despite continued efforts, repeated polite contact and larger number of invitees, only a unsuitable fraction of participants followed through and provided feedback. Out of approximately fifteen directly invited, half of which initially confirmed their participation and an unknown number of potential users reached online, only four gave signs of participation after the initial agreement, only two of which actually completed the survey and submitted their feedback. 
 While it was unfortunate that the second user study was hosted in the active examination period of the summer semester 2016, thereby losing several potential candidates, it remains inexplicable how almost all participants eventually declined. We believe enough time until the due date was given, including an extension to a total of at least two weeks - noting the first user study successfully completed with five out of seven users within four days - and the invitees were treated politely, with respect and given sufficient and detailed information on the procedure. 
-Given these indoubtedly lackluster participation statistics, the following feedback evaluation is to be taken with scepticism and not to be mistaken with a well averaged and allround profound depiction of user perception. The non-numerical feedback can however be examined within its limitations and with the first study's results kept in mind, to very vaguely determine achieved progress.
-\paragraph{Basics} TODO.
-\paragraph{Interface} TODO.
-\paragraph{Performance} TODO.
-\paragraph{Documentation/Tutorial} TODO.
-\paragraph{General impression} TODO.
-\paragraph{Additional} TODO.
+Given these indoubtedly lackluster participation statistics, the following feedback evaluation is to be taken with skepticism and not to be mistaken with a well averaged and allround profound depiction of user perception. The non-numerical feedback can however be examined within its limitations and with the first study's results kept in mind, to very vaguely determine achieved progress.
+\paragraph{Basics} Again starting with the basic information provided, the average age was 25 years (standard deviation SD = 2.00), the average time spent with the framework 2.25 hours (SD 0.75). 
+One participant used a system in line with the average development computer in the first study, with a modern desktop Intel Core i7 SKU, 8 gigabytes of memory, an Nvidia GeForce GTX 970, running Windows 10, the second participant used a 2012 Apple MacBook Pro with a 2.9GHz Intel Core i7 mobile SKU, 8 gigabytes of memory and integrated graphics, OSX version unknown.
+The first participant claimed prior game development and writing experience, the second denied any relevant experience.
+\paragraph{Interface} The interface intuitiveness ratings diverged too much between the two participants with one giving almost perfect scores, the other mediocre. 
+The qualitative comments prove more helpful here, indicating that the interface at first sight still offers too many possibilities at once but can be understood well after a short period, with the inexperienced user being most overwhelmed by the tool. It still stands to be determined whether the main confusion stems from ConText's options or Unity's. 
+It was suggested the modules be displayed more hierarchically and the amount of windows open at once reduced, as well as the reoccurring suggestion of a story graph visualization. 
+One thing to note is that the interfaces was described as scaling unfavorably with low or very high resolutions. Low resolutions (below 1600x900 pixels) or positive desktop scaling lead to the individual windows requiring scrolling to see even small amounts of information while very high resolutions (above 2560x1440 pixels) or negative desktop scaling lead to content inside windows becoming small and hard to read. 
+\paragraph{Performance} Performance was rated excellent by both participants, falling in line with observations made in the first user study (avg. 7.00, SD 0.00). 
+\paragraph{Documentation/Tutorial} The documentation and tutorial likewise received high scores (avg. 7.00, SD 0.00) and were described as "rich of details" (sic), the tutorial "absolutely useful" yet still also rather complex in parts. Textual, video and in-framework walkthroughs were all likewise named as suitable methods for the tutorial. 
+\paragraph{General impression \& Additional} In summary, the framework was described as "a great tool to create message based interactive fiction", "very flexible", and "surprising to achieve such quick results [even for a beginner]". 
+One additional suggestion were code examples in the documentation for custom classes.
+\paragraph{Statistical trend} While the numerical ratings cannot be used to make definitive statements as the sample size is insignificantly small, a vague trend can be seen suggesting the interface has improved over the first revision as has the documentation quality. Further quantitative studies with a much larger sample size would need to be conducted to gain statistically significant data. 
 
-\paragraph{After the second user study} One often requested and initially planned feature was a visual representation of the entire story within the editor. The intuitive ideal representation is a visual graph with story modules as nodes and their connections as edges. Thus such a system was put in place towards the end of the project, unfortunately after the second user study though. The node viewer added to the framework does not offer a lot of interactivity yet, upon opening it the user is presented with an image as described with the message modules shown as graph nodes displaying the content and character and an edge connecting it to its previous and next modules' nodes. A button within each node lets the user jump straight to that module in the inspector window. A small control in the upper left of the node viewer lets the user pan left, right, up and down as well as reset to the origin, a control at the top makes the viewer reset and redraw the graph.
+\paragraph{After the second user study} Through both studies, one often requested and initially planned feature was a visual representation of the entire story within the editor. The intuitive ideal representation is a visual graph with story modules as nodes and their connections as edges. Thus such a system was put in place towards the end of the project, unfortunately after the second user study though. The node viewer added to the framework does not offer a lot of interactivity yet, upon opening it the user is presented with an image as described with the message modules shown as graph nodes displaying the content and character and an edge connecting it to its previous and next modules' nodes. A button within each node lets the user jump straight to that module in the inspector window. A small control in the upper left of the node viewer lets the user pan left, right, up and down as well as reset to the origin, a control at the top makes the viewer reset and redraw the graph.
