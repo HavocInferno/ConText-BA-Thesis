@@ -19,85 +19,271 @@
 
 \refsection{0}
   \sortlist[entry]{anyt/global/}
-    \entry{ISTORY}{proceedings}{}
-      \name{editor}{1}{}{%
-        {{uniquename=0,hash=97101acb4b5fdac16962155f89dbdd0f}{%
-           family={{Alex Mitchell et al.}},
-           family_i={A\bibinitperiod}}}%
+    \entry{ELEARN}{proceedings}{}
+      \name{editor}{4}{}{%
+        {{uniquename=0,hash=734d1bc0035a53891feeef74c7d1e409}{%
+           family={Göbel},
+           family_i={G\bibinitperiod},
+           given={Stefan},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=6f558f6d7ffc256990348ff493289d08}{%
+           family={Müller},
+           family_i={M\bibinitperiod},
+           given={Wolfgang},
+           given_i={W\bibinitperiod}}}%
+        {{uniquename=0,hash=daff10afccca6dc559ddfa452d1dbdd4}{%
+           family={Urban},
+           family_i={U\bibinitperiod},
+           given={Bodo},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=6c21d1bf31128cfe82abb995af349cd6}{%
+           family={Wiemeyer},
+           family_i={W\bibinitperiod},
+           given={Josef},
+           given_i={J\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Springer-Verlag}%
       }
-      \strng{namehash}{97101acb4b5fdac16962155f89dbdd0f}
-      \strng{fullhash}{97101acb4b5fdac16962155f89dbdd0f}
-      \field{labelalpha}{Ale14}
-      \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \strng{namehash}{a1828a895170b294f2d708efe27be1f8}
+      \strng{fullhash}{a1828a895170b294f2d708efe27be1f8}
+      \field{labelalpha}{Göb+12}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
-      \field{title}{Interactive Storytelling - 7th International Conference on Interactive Digital Storytelling, ICIDS 2014, Singapore, Singapore, November 3-6, 2014}
-      \field{volume}{7}
-      \field{year}{2014}
-    \endentry
-    \entry{ELEARN1}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=125c1276afe25910bef91c150afd4d17}{%
-           family={{Danu Pranantha et al.}},
-           family_i={D\bibinitperiod}}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=00128ed829a03a7bd1f8447719a3237e}{%
-           prefix={et},
-           prefix_i={e\bibinitperiod},
-           family={al.},
-           family_i={a\bibinitperiod},
-           given={Stefan\bibnamedelima Göbel},
-           given_i={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer-Verlag}%
-      }
-      \strng{namehash}{125c1276afe25910bef91c150afd4d17}
-      \strng{fullhash}{125c1276afe25910bef91c150afd4d17}
-      \field{labelalpha}{Dan12}
-      \field{sortinit}{D}
-      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{E-Learning and Games for Training, Education, Health and Sports}
-      \field{title}{Puzzle-it: An HTML5 Serious Games Platform for Education}
+      \field{title}{E-Learning and Games for Training, Education, Health and Sports - 7th International Conference, Edutainment 2012 and 3rd International Conference, GameDays 2012, Darmstadt, Germany, September 18-20, 2012}
       \field{volume}{7}
       \field{year}{2012}
     \endentry
+    \entry{UISO}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           family_i={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {ISO}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{labelalpha}{ISO10}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO 9241-210: Ergonomics of human system interaction — Part 210: Human-centred design for interactive systems}
+      \field{type}{techreport}
+      \field{year}{2010}
+    \endentry
     \entry{ISTORY1}{inproceedings}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=c421aba5ab81f66eaba639fc6c405745}{%
-           family={{Hartmut Koenitz}},
-           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=5342a56595dd54fc151dcbdd11f979b4}{%
+           family={Koenitz},
+           family_i={K\bibinitperiod},
+           given={Hartmut},
+           given_i={H\bibinitperiod}}}%
       }
-      \name{editor}{1}{}{%
-        {{hash=cfbed0e91f900576d2fee4b70d4aeec8}{%
-           prefix={et},
-           prefix_i={e\bibinitperiod},
-           family={al.},
-           family_i={a\bibinitperiod},
-           given={Alex\bibnamedelima Mitchell},
-           given_i={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      \name{editor}{3}{}{%
+        {{hash=1f91e7dd8020f782dbfef26202b0be20}{%
+           family={Mitchell},
+           family_i={M\bibinitperiod},
+           given={Alex},
+           given_i={A\bibinitperiod}}}%
+        {{hash=8f59019a5eb9ff688d892a4e3b89fba3}{%
+           family={Fernández-Vara},
+           family_i={F\bibinithyphendelim V\bibinitperiod},
+           given={Clara},
+           given_i={C\bibinitperiod}}}%
+        {{hash=6dfaf34be7e7be184aec350271d9062d}{%
+           family={Thue},
+           family_i={T\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Springer-Verlag}%
       }
-      \strng{namehash}{c421aba5ab81f66eaba639fc6c405745}
-      \strng{fullhash}{c421aba5ab81f66eaba639fc6c405745}
-      \field{labelalpha}{Har14}
-      \field{sortinit}{H}
-      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \strng{namehash}{5342a56595dd54fc151dcbdd11f979b4}
+      \strng{fullhash}{5342a56595dd54fc151dcbdd11f979b4}
+      \field{labelalpha}{Koe14}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Interactive Storytelling}
       \field{title}{Five Theses for Interactive Digital Narrative}
       \field{volume}{7}
       \field{year}{2014}
+    \endentry
+    \entry{DMMThink}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5484dccb0532d31791b5359574fe6830}{%
+           family={Krug},
+           family_i={K\bibinitperiod},
+           given={Steve},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {New Riders Publ.}%
+      }
+      \strng{namehash}{5484dccb0532d31791b5359574fe6830}
+      \strng{fullhash}{5484dccb0532d31791b5359574fe6830}
+      \field{labelalpha}{Kru14}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Don't make me think, revisited - a common sense approach to web [and mobile] usability}
+      \field{year}{2014}
+    \endentry
+    \entry{DUXU}{proceedings}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=28e4f412995cd32168f059866616faf0}{%
+           family={Marcus},
+           family_i={M\bibinitperiod},
+           given={Aaron},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{28e4f412995cd32168f059866616faf0}
+      \strng{fullhash}{28e4f412995cd32168f059866616faf0}
+      \field{labelalpha}{Mar15}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Design, User Experience, and Usability - Design Discourse - 4th International Conference, DUXU 2015, Held as Part of HCI International 2015, Los Angeles, CA, USA, August 2-7, 2015, Proceedings, Part I}
+      \field{volume}{18}
+      \field{year}{2015}
+    \endentry
+    \entry{ISTORY}{proceedings}{}
+      \name{editor}{3}{}{%
+        {{uniquename=0,hash=1f91e7dd8020f782dbfef26202b0be20}{%
+           family={Mitchell},
+           family_i={M\bibinitperiod},
+           given={Alex},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=8f59019a5eb9ff688d892a4e3b89fba3}{%
+           family={Fernández-Vara},
+           family_i={F\bibinithyphendelim V\bibinitperiod},
+           given={Clara},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=6dfaf34be7e7be184aec350271d9062d}{%
+           family={Thue},
+           family_i={T\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{63a3805ff15f0460b83c21b00e19dda0}
+      \strng{fullhash}{63a3805ff15f0460b83c21b00e19dda0}
+      \field{labelalpha}{MFT14}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Interactive Storytelling - 7th International Conference on Interactive Digital Storytelling, ICIDS 2014, Singapore, Singapore, November 3-6, 2014}
+      \field{volume}{7}
+      \field{year}{2014}
+    \endentry
+    \entry{NNG}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           family_i={N\bibinitperiod},
+           given={Jakob},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{organization}{1}{%
+        {Nielsen Norman Group}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{labelalpha}{Nie05}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{10 Usability Heuristics for User Interface Design}
+      \field{urlday}{08}
+      \field{urlmonth}{08}
+      \field{urlyear}{2016}
+      \field{year}{2005}
+      \verb{url}
+      \verb https://www.nngroup.com/articles/ten-usability-heuristics/
+      \endverb
+    \endentry
+    \entry{ELEARN1}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=8e6cf0f3c483283e7d5c3f4c09dbbd13}{%
+           family={Pranantha},
+           family_i={P\bibinitperiod},
+           given={Danu},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=df27e4e899a204ff55a7d493d66286e4}{%
+           family={Bellotti},
+           family_i={B\bibinitperiod},
+           given={Francesco},
+           given_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=37e08179aab5a2e6813ded9702b336a8}{%
+           family={Berta},
+           family_i={B\bibinitperiod},
+           given={Ricardo},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=a3872fc08a3c963edcae94b73b53a9d8}{%
+           family={Gloria},
+           family_i={G\bibinitperiod},
+           given={Alessandro\bibnamedelima De},
+           given_i={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=734d1bc0035a53891feeef74c7d1e409}{%
+           family={Göbel},
+           family_i={G\bibinitperiod},
+           given={Stefan},
+           given_i={S\bibinitperiod}}}%
+        {{hash=6f558f6d7ffc256990348ff493289d08}{%
+           family={Müller},
+           family_i={M\bibinitperiod},
+           given={Wolfgang},
+           given_i={W\bibinitperiod}}}%
+        {{hash=daff10afccca6dc559ddfa452d1dbdd4}{%
+           family={Urban},
+           family_i={U\bibinitperiod},
+           given={Bodo},
+           given_i={B\bibinitperiod}}}%
+        {{hash=6c21d1bf31128cfe82abb995af349cd6}{%
+           family={Wiemeyer},
+           family_i={W\bibinitperiod},
+           given={Josef},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{33e0021819a8e6b4505e8bf698d7b1b8}
+      \strng{fullhash}{33e0021819a8e6b4505e8bf698d7b1b8}
+      \field{labelalpha}{Pra+12}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{E-Learning and Games for Training, Education, Health and Sports}
+      \field{title}{Puzzle-it: An HTML5 Serious Games Platform for Education}
+      \field{volume}{7}
+      \field{year}{2012}
     \endentry
     \entry{U3DC1}{online}{}
       \name{author}{1}{}{%
@@ -127,25 +313,55 @@
       \verb http://forum.unity3d.com/threads/why-doesnt-layout-element-have-max-values.274221/#post-1816127
       \endverb
     \endentry
-    \entry{ELEARN}{proceedings}{}
+    \entry{DUXU1}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{uniquename=1,hash=24fc1bbb81d15aec5ab80ccf7130f750}{%
+           family={Rusu},
+           family_i={R\bibinitperiod},
+           given={Cristian},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=1,hash=a3ca6304910965ca18dee66981b91c89}{%
+           family={Rusu},
+           family_i={R\bibinitperiod},
+           given={Virginica},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=1f0092035340f7c5337d409fb9c46102}{%
+           family={Roncagliolo},
+           family_i={R\bibinitperiod},
+           given={Silvana},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=1d085f4f625ea75b3f22254475575b8f}{%
+           family={Apablaza},
+           family_i={A\bibinitperiod},
+           given={Juan},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=939596bcf9431a4683a4cf81519c2268}{%
+           family={Rusu},
+           family_i={R\bibinitperiod},
+           given={Virginia\bibnamedelima Zaraza},
+           given_i={V\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
       \name{editor}{1}{}{%
-        {{uniquename=0,hash=04952bbb02e17d1b92b23d7b1d7d354a}{%
-           family={{Stefan Göbel et al.}},
-           family_i={S\bibinitperiod}}}%
+        {{hash=28e4f412995cd32168f059866616faf0}{%
+           family={Marcus},
+           family_i={M\bibinitperiod},
+           given={Aaron},
+           given_i={A\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Springer-Verlag}%
       }
-      \strng{namehash}{04952bbb02e17d1b92b23d7b1d7d354a}
-      \strng{fullhash}{04952bbb02e17d1b92b23d7b1d7d354a}
-      \field{labelalpha}{Ste12}
-      \field{sortinit}{S}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
-      \field{labelnamesource}{editor}
+      \strng{namehash}{6e213e98d0d6602425375e63ad4af17a}
+      \strng{fullhash}{e7617a98f21627a78f3568b63ddae122}
+      \field{labelalpha}{Rus+15}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{E-Learning and Games for Training, Education, Health and Sports - 7th International Conference, Edutainment 2012 and 3rd International Conference, GameDays 2012, Darmstadt, Germany, September 18-20, 2012}
-      \field{volume}{7}
-      \field{year}{2012}
+      \field{booktitle}{Design, User Experience, and Usability - Design Discourse}
+      \field{title}{User Experience Evaluations: Challenges for Newcomers}
+      \field{volume}{18}
+      \field{year}{2015}
     \endentry
     \entry{SREQ}{online}{}
       \name{author}{1}{}{%
