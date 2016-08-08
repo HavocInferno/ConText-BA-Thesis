@@ -2,12 +2,20 @@
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
 \chapter{Closing words}\label{chapter:outlook}
-TODO.
-\section{Outlook and possible future work}
-TODO.
+With the research, development and evaluation detailed, the main portions of this thesis are covered, but it still stands to reason what it all means for ConText and what the future may hold.
 \section{Conclusions from surveys}
-TODO.
+The first and to a limited degree the second user study have shown that the framework is by no means flawless, the most common criticism is that it especially lacks consistency and accessibility in the editor interface and thus often presents itself too complex at least to the inexperienced user group. Too much of the available information is displayed at once and without fully intuitive indicators as to the order in which the user's attention should visit them. 
+The documentation, if not at first then in its second revision, was accepted as detailed, helpful and informative, even if not as detailed as a full-fledged technical breakdown. 
 \section{Project conclusion}
-TODO.
-\subsection{Summary and accuracy to goal (del)}
-\subsection{what else? (del)}
+Looking at the framework itself and comparing both initial concept and the final structure and implementation, it can be said that core functionality was integrated completely and appropriately sophisticated given the thesis' time frame. ConText includes the module system with message types, the automatic message stream, UI management, a user interface customized for these modules, a basic markup system to infuse text messages with additional instructions, an ingame log system, a tutorial and documentation.
+However, not all of these are implemented as rich as initially planned.
+The module system lacks a greater variety of module types. Text, Image, Reply and Tic Tac Toe types are implemented, while a type for entering and checking text akin to an actual text adventure, a type for video, further mini games are missing. 
+UI management is functional but devoid of advanced capabilities such as device orientation handling, individual media handling or more complex animation. 
+The message stream can handle interrupts expecting user input, load and save progress, but is yet incapable of utilizing system notifications common on iOS and Android for example. 
+Considering the project's duration though, the result may be regarded as respectable and a prototype tested successfully with users. 
+\section{Outlook and possible future work}
+With this in mind, a continuation of the ConText framework is possible and may result in a valuable tool for its purpose. 
+The aforementioned shortcomings can and should be subject of future work and expansion done with the framework. As this thesis only encompassed the creation of a prototype, this prototype may be overhauled, expanded, the structure and concept reiterated. More and more sophisticated modules should be added, a chapter hierarchy, as well as dynamic streaming of modules, mobile system integration implemented and fully utilized, more visually refined and adaptive UI management, the text markup fully, diversely and extensively integrated, the documentation and tutorial material greatly extended with technical detail and samples, platform compatibility added for remaining mobile or even otherwise systems. 
+The user interface should receive special attention in order to address usability concerns and find solutions to commonly raised complaints.
+Additionally, as proposed in chapter 4, further studies should be conducted with larger sample sizes and perhaps different qualitative and quantitative approaches and foci.
+If such attention and effort is placed on the framework, ConText could definitely grow from a prototype into a powerful and viable tool for the creation of modern, educational and entertaining text and choice based games on mobile platforms.
