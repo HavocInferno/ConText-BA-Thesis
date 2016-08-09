@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.13)  8 AUG 2016 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.13)  9 AUG 2016 17:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -1759,6 +1759,22 @@ File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks39
 \c@AM@survey=\count370
 \AM@templatesizebox=\box59
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count371
+\float@exts=\toks40
+\float@box=\box60
+\@float@everytoks=\toks41
+\@floatcapt=\box61
+)
+Package scrhack Info: loading float hack on input line 30.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\float.hak"
+File: float.hak 2016/06/14 v3.21 KOMA-Script package (hacking package float)
+Package scrhack Info: redefining \newfloat on input line 161.
+Package scrhack Info: redefining \listof on input line 161.
+Package scrhack Info: undefining \float@addtolists on input line 161.
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1813,17 +1829,17 @@ Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count371
+\scratchcounter=\count372
 \scratchdimen=\dimen289
-\scratchbox=\box60
-\nofMPsegments=\count372
-\nofMParguments=\count373
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count374
+\scratchbox=\box62
+\nofMPsegments=\count373
+\nofMParguments=\count374
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count375
 \MPscratchDim=\dimen290
-\MPnumerator=\count375
-\makeMPintoPDFobject=\count376
-\everyMPtoPDFconversion=\toks41
+\MPnumerator=\count376
+\makeMPintoPDFobject=\count377
+\everyMPtoPDFconversion=\toks43
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1837,7 +1853,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\c@lstlisting=\count377
+\c@lstlisting=\count378
 Package scrhack Info: undefining \float@addtolists on input line 21.
 
 ABD: EveryShipout initializing macros
@@ -1858,9 +1874,10 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box61
+\AtBeginShipoutBox=\box63
 Package hyperref Info: Link coloring OFF on input line 21.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
@@ -1869,7 +1886,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count378
+\c@section@level=\count379
 )
 LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
@@ -2009,9 +2026,30 @@ chapter 2.
 ]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 16.
- [4] [5] [6] [7]) (chapters/03_development.tex [8]
+ <figures/lifeline.png, id=221, 885.3075pt x 523.9575pt>
+File: figures/lifeline.png Graphic file (type png)
+
+<use figures/lifeline.png>
+Package pdftex.def Info: figures/lifeline.png used on input line 27.
+(pdftex.def)             Requested size: 355.51976pt x 210.41075pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] <figures/storynexus.png, id=232, 729.927pt x 540.8205pt>
+File: figures/storynexus.png Graphic file (type png)
+
+<use figures/storynexus.png>
+Package pdftex.def Info: figures/storynexus.png used on input line 37.
+(pdftex.def)             Requested size: 355.51976pt x 263.41992pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./figures/lifeline.png>] [6 <./figures/storynexus.png>] [7] [8])
+(chapters/03_development.tex [9]
 chapter 3.
-[9
+[10
 
 
 ]
@@ -2020,12 +2058,82 @@ Overfull \hbox (0.85066pt too wide) in paragraph at lines 17--18
 0.95 (-20) which would han-dle sav-ing and load-ing of story progress,
  []
 
-[10] [11] [12] [13] [14] [15]) (chapters/04_userstudy.tex [16]
+[11] <figures/concept.png, id=324, 408.8073pt x 393.6306pt>
+File: figures/concept.png Graphic file (type png)
+
+<use figures/concept.png>
+Package pdftex.def Info: figures/concept.png used on input line 32.
+(pdftex.def)             Requested size: 355.51976pt x 342.34174pt.
+ [12 <./figures/concept.png>] [13]
+<figures/final.png, id=338, 408.8073pt x 393.6306pt>
+File: figures/final.png Graphic file (type png)
+ <use figures/final.png>
+Package pdftex.def Info: figures/final.png used on input line 52.
+(pdftex.def)             Requested size: 355.51976pt x 342.34174pt.
+
+<figures/conceptVSfinal.png, id=339, 421.3341pt x 205.9695pt>
+File: figures/conceptVSfinal.png Graphic file (type png)
+
+<use figures/conceptVSfinal.png>
+Package pdftex.def Info: figures/conceptVSfinal.png used on input line 58.
+(pdftex.def)             Requested size: 355.51976pt x 173.80203pt.
+ [14 <./figures/final.png>] [15 <./figures/conceptVSfinal.png>] <figures/msgmod
+.png, id=359, 115.1502pt x 65.7657pt>
+File: figures/msgmod.png Graphic file (type png)
+
+<use figures/msgmod.png>
+Package pdftex.def Info: figures/msgmod.png used on input line 83.
+(pdftex.def)             Requested size: 167.29967pt x 95.55751pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16] <figures/sampleStory.png, id=370, 278.7213pt x 185.7339pt>
+File: figures/sampleStory.png Graphic file (type png)
+
+<use figures/sampleStory.png>
+Package pdftex.def Info: figures/sampleStory.png used on input line 102.
+(pdftex.def)             Requested size: 292.7776pt x 195.10004pt.
+ [17 <./figures/msgmod.png> <./figures/sampleStory.png>] <figures/sampleStep1.p
+ng, id=387, 469.9959pt x 210.3057pt>
+File: figures/sampleStep1.png Graphic file (type png)
+
+<use figures/sampleStep1.png>
+Package pdftex.def Info: figures/sampleStep1.png used on input line 112.
+(pdftex.def)             Requested size: 418.25555pt x 187.16185pt.
+ [18 <./figures/sampleStep1.png>]
+<figures/sampleStep2.png, id=396, 574.7874pt x 210.3057pt>
+File: figures/sampleStep2.png Graphic file (type png)
+
+<use figures/sampleStep2.png>
+Package pdftex.def Info: figures/sampleStep2.png used on input line 122.
+(pdftex.def)             Requested size: 418.25555pt x 153.0341pt.
+
+<figures/inengineSample_rot.png, id=397, 1167.61218pt x 1682.53593pt>
+File: figures/inengineSample_rot.png Graphic file (type png)
+
+<use figures/inengineSample_rot.png>
+Package pdftex.def Info: figures/inengineSample_rot.png used on input line 130.
+
+(pdftex.def)             Requested size: 376.42744pt x 542.42755pt.
+
+<figures/inengineStory.png, id=398, 408.02437pt x 502.12593pt>
+File: figures/inengineStory.png Graphic file (type png)
+
+<use figures/inengineStory.png>
+Package pdftex.def Info: figures/inengineStory.png used on input line 135.
+(pdftex.def)             Requested size: 250.95587pt x 308.83243pt.
+ [19 <./figures/sampleStep2.png>]
+Overfull \vbox (25.98738pt too high) has occurred while \output is active []
+
+
+[20 <./figures/inengineSample_rot.png>] [21 <./figures/inengineStory.png>])
+(chapters/04_userstudy.tex [22]
 chapter 4.
-[17
+[23
 
 
-] [18] [19]
+] [24] [25]
 LaTeX Font Info:    Try loading font information for OMS+pplx on input line 77.
 
 LaTeX Font Info:    No file OMSpplx.fd. on input line 77.
@@ -2035,15 +2143,15 @@ LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 77.
 
-[20] [21] [22] [23] [24]) (chapters/05_outlook.tex [25]
+[26] [27] [28] [29] [30]) (chapters/05_outlook.tex [31]
 chapter 5.
-[26
+[32
 
 
-]) (chapters/06_appendix.tex [27]
+]) (chapters/06_appendix.tex [33]
 chapter A.
 
-<./Appendices/Orientation_UserStudy1_English.pdf, id=410, 597.63278pt x 844.956
+<./Appendices/Orientation_UserStudy1_English.pdf, id=496, 597.63278pt x 844.956
 74pt>
 File: ./Appendices/Orientation_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/Orientation_UserStudy1_English.pdf>
@@ -2057,7 +2165,7 @@ Package pdftex.def Info: ./Appendices/Orientation_UserStudy1_English.pdf used o
 n input line 45.
 (pdftex.def)             Requested size: 597.63132pt x 844.95468pt.
 
-<./Appendices/Orientation_UserStudy1_English.pdf, id=413, page=1, 597.63278pt x
+<./Appendices/Orientation_UserStudy1_English.pdf, id=499, page=1, 597.63278pt x
  844.95674pt>
 File: ./Appendices/Orientation_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/Orientation_UserStudy1_English.pdf, page 1>
@@ -2070,7 +2178,7 @@ File: ./Appendices/Orientation_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Orientation_UserStudy1_English.pdf, page1
  used on input line 45.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [28
+ [34
 
 
 ]
@@ -2092,8 +2200,8 @@ File: ./Appendices/Orientation_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Orientation_UserStudy1_English.pdf, page1
  used on input line 45.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [29 <./Appendices/Orientation_UserStudy1_English.pdf>]
-<./Appendices/Orientation_UserStudy2_English.pdf, id=444, 597.55246pt x 845.077
+ [35 <./Appendices/Orientation_UserStudy1_English.pdf>]
+<./Appendices/Orientation_UserStudy2_English.pdf, id=530, 597.55246pt x 845.077
 18pt>
 File: ./Appendices/Orientation_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Orientation_UserStudy2_English.pdf>
@@ -2107,7 +2215,7 @@ Package pdftex.def Info: ./Appendices/Orientation_UserStudy2_English.pdf used o
 n input line 46.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<./Appendices/Orientation_UserStudy2_English.pdf, id=447, page=1, 597.55246pt x
+<./Appendices/Orientation_UserStudy2_English.pdf, id=533, page=1, 597.55246pt x
  845.07718pt>
 File: ./Appendices/Orientation_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Orientation_UserStudy2_English.pdf, page 1>
@@ -2138,8 +2246,8 @@ File: ./Appendices/Orientation_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Orientation_UserStudy2_English.pdf, page1
  used on input line 46.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [30 <./Appendices/Orientation_UserStudy2_English.pdf>]
-<./Appendices/ConText_UserStudy1_English.pdf, id=476, 597.63278pt x 844.95674pt
+ [36 <./Appendices/Orientation_UserStudy2_English.pdf>]
+<./Appendices/ConText_UserStudy1_English.pdf, id=562, 597.63278pt x 844.95674pt
 >
 File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy1_English.pdf>
@@ -2153,7 +2261,7 @@ Package pdftex.def Info: ./Appendices/ConText_UserStudy1_English.pdf used on in
 put line 49.
 (pdftex.def)             Requested size: 597.63132pt x 844.95468pt.
 
-<./Appendices/ConText_UserStudy1_English.pdf, id=479, page=1, 597.63278pt x 844
+<./Appendices/ConText_UserStudy1_English.pdf, id=565, page=1, 597.63278pt x 844
 .95674pt>
 File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy1_English.pdf, page 1>
@@ -2184,7 +2292,7 @@ File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy1_English.pdf, page1 use
 d on input line 49.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [31 <./Appendices/ConText_UserStudy1_English.pdf>]
+ [37 <./Appendices/ConText_UserStudy1_English.pdf>]
 File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
 
 <use ./Appendices/ConText_UserStudy1_English.pdf>
@@ -2198,7 +2306,7 @@ Package pdftex.def Info: ./Appendices/ConText_UserStudy1_English.pdf used on in
 put line 50.
 (pdftex.def)             Requested size: 597.63132pt x 844.95468pt.
 
-<./Appendices/ConText_UserStudy1_English.pdf, id=515, page=2, 597.63278pt x 844
+<./Appendices/ConText_UserStudy1_English.pdf, id=601, page=2, 597.63278pt x 844
 .95674pt>
 File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy1_English.pdf, page 2>
@@ -2229,8 +2337,8 @@ File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy1_English.pdf, page2 use
 d on input line 50.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [32 <./Appendices/ConText_UserStudy1_English.pdf>]
-<./Appendices/ConText_UserStudy1_English.pdf, id=521, page=3, 597.63278pt x 844
+ [38 <./Appendices/ConText_UserStudy1_English.pdf>]
+<./Appendices/ConText_UserStudy1_English.pdf, id=607, page=3, 597.63278pt x 844
 .95674pt>
 File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy1_English.pdf, page 3>
@@ -2249,8 +2357,8 @@ File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy1_English.pdf, page3 use
 d on input line 50.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [33 <./Appendices/ConText_UserStudy1_English.pdf>]
-<./Appendices/ConText_UserStudy1_English.pdf, id=527, page=4, 597.63278pt x 844
+ [39 <./Appendices/ConText_UserStudy1_English.pdf>]
+<./Appendices/ConText_UserStudy1_English.pdf, id=613, page=4, 597.63278pt x 844
 .95674pt>
 File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy1_English.pdf, page 4>
@@ -2269,8 +2377,8 @@ File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy1_English.pdf, page4 use
 d on input line 50.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [34 <./Appendices/ConText_UserStudy1_English.pdf>]
-<./Appendices/ConText_UserStudy1_English.pdf, id=534, page=5, 597.63278pt x 844
+ [40 <./Appendices/ConText_UserStudy1_English.pdf>]
+<./Appendices/ConText_UserStudy1_English.pdf, id=620, page=5, 597.63278pt x 844
 .95674pt>
 File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy1_English.pdf, page 5>
@@ -2289,8 +2397,8 @@ File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy1_English.pdf, page5 use
 d on input line 50.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [35 <./Appendices/ConText_UserStudy1_English.pdf>]
-<./Appendices/ConText_UserStudy1_English.pdf, id=540, page=6, 597.63278pt x 844
+ [41 <./Appendices/ConText_UserStudy1_English.pdf>]
+<./Appendices/ConText_UserStudy1_English.pdf, id=626, page=6, 597.63278pt x 844
 .95674pt>
 File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy1_English.pdf, page 6>
@@ -2309,8 +2417,8 @@ File: ./Appendices/ConText_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy1_English.pdf, page6 use
 d on input line 50.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [36 <./Appendices/ConText_UserStudy1_English.pdf>]
-<./Appendices/ConText_UserStudy2_English.pdf, id=547, 597.55246pt x 845.07718pt
+ [42 <./Appendices/ConText_UserStudy1_English.pdf>]
+<./Appendices/ConText_UserStudy2_English.pdf, id=633, 597.55246pt x 845.07718pt
 >
 File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy2_English.pdf>
@@ -2324,7 +2432,7 @@ Package pdftex.def Info: ./Appendices/ConText_UserStudy2_English.pdf used on in
 put line 51.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<./Appendices/ConText_UserStudy2_English.pdf, id=550, page=1, 597.55246pt x 845
+<./Appendices/ConText_UserStudy2_English.pdf, id=636, page=1, 597.55246pt x 845
 .07718pt>
 File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy2_English.pdf, page 1>
@@ -2355,8 +2463,8 @@ File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy2_English.pdf, page1 use
 d on input line 51.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [37 <./Appendices/ConText_UserStudy2_English.pdf>]
-<./Appendices/ConText_UserStudy2_English.pdf, id=585, page=2, 597.55246pt x 845
+ [43 <./Appendices/ConText_UserStudy2_English.pdf>]
+<./Appendices/ConText_UserStudy2_English.pdf, id=671, page=2, 597.55246pt x 845
 .07718pt>
 File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy2_English.pdf, page 2>
@@ -2375,8 +2483,8 @@ File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy2_English.pdf, page2 use
 d on input line 51.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [38 <./Appendices/ConText_UserStudy2_English.pdf>]
-<./Appendices/ConText_UserStudy2_English.pdf, id=591, page=3, 597.55246pt x 845
+ [44 <./Appendices/ConText_UserStudy2_English.pdf>]
+<./Appendices/ConText_UserStudy2_English.pdf, id=677, page=3, 597.55246pt x 845
 .07718pt>
 File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy2_English.pdf, page 3>
@@ -2395,8 +2503,8 @@ File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy2_English.pdf, page3 use
 d on input line 51.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [39 <./Appendices/ConText_UserStudy2_English.pdf>]
-<./Appendices/ConText_UserStudy2_English.pdf, id=597, page=4, 597.55246pt x 845
+ [45 <./Appendices/ConText_UserStudy2_English.pdf>]
+<./Appendices/ConText_UserStudy2_English.pdf, id=683, page=4, 597.55246pt x 845
 .07718pt>
 File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy2_English.pdf, page 4>
@@ -2415,8 +2523,8 @@ File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy2_English.pdf, page4 use
 d on input line 51.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [40 <./Appendices/ConText_UserStudy2_English.pdf>]
-<./Appendices/ConText_UserStudy2_English.pdf, id=603, page=5, 597.55246pt x 845
+ [46 <./Appendices/ConText_UserStudy2_English.pdf>]
+<./Appendices/ConText_UserStudy2_English.pdf, id=689, page=5, 597.55246pt x 845
 .07718pt>
 File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy2_English.pdf, page 5>
@@ -2435,8 +2543,8 @@ File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy2_English.pdf, page5 use
 d on input line 51.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [41 <./Appendices/ConText_UserStudy2_English.pdf>]
-<./Appendices/ConText_UserStudy2_English.pdf, id=609, page=6, 597.55246pt x 845
+ [47 <./Appendices/ConText_UserStudy2_English.pdf>]
+<./Appendices/ConText_UserStudy2_English.pdf, id=695, page=6, 597.55246pt x 845
 .07718pt>
 File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/ConText_UserStudy2_English.pdf, page 6>
@@ -2455,8 +2563,8 @@ File: ./Appendices/ConText_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/ConText_UserStudy2_English.pdf, page6 use
 d on input line 51.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [42 <./Appendices/ConText_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy1_English.pdf, id=616, 597.63278pt x 844.95674p
+ [48 <./Appendices/ConText_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy1_English.pdf, id=702, 597.63278pt x 844.95674p
 t>
 File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy1_English.pdf>
@@ -2470,7 +2578,7 @@ Package pdftex.def Info: ./Appendices/Tutorial_UserStudy1_English.pdf used on i
 nput line 54.
 (pdftex.def)             Requested size: 597.63132pt x 844.95468pt.
 
-<./Appendices/Tutorial_UserStudy1_English.pdf, id=619, page=1, 597.63278pt x 84
+<./Appendices/Tutorial_UserStudy1_English.pdf, id=705, page=1, 597.63278pt x 84
 4.95674pt>
 File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy1_English.pdf, page 1>
@@ -2501,7 +2609,7 @@ File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy1_English.pdf, page1 us
 ed on input line 54.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [43 <./Appendices/Tutorial_UserStudy1_English.pdf>]
+ [49 <./Appendices/Tutorial_UserStudy1_English.pdf>]
 File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
 
 <use ./Appendices/Tutorial_UserStudy1_English.pdf>
@@ -2515,7 +2623,7 @@ Package pdftex.def Info: ./Appendices/Tutorial_UserStudy1_English.pdf used on i
 nput line 55.
 (pdftex.def)             Requested size: 597.63132pt x 844.95468pt.
 
-<./Appendices/Tutorial_UserStudy1_English.pdf, id=661, page=2, 597.63278pt x 84
+<./Appendices/Tutorial_UserStudy1_English.pdf, id=747, page=2, 597.63278pt x 84
 4.95674pt>
 File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy1_English.pdf, page 2>
@@ -2546,8 +2654,8 @@ File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy1_English.pdf, page2 us
 ed on input line 55.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [44 <./Appendices/Tutorial_UserStudy1_English.pdf>]
-<./Appendices/Tutorial_UserStudy1_English.pdf, id=670, page=3, 597.63278pt x 84
+ [50 <./Appendices/Tutorial_UserStudy1_English.pdf>]
+<./Appendices/Tutorial_UserStudy1_English.pdf, id=756, page=3, 597.63278pt x 84
 4.95674pt>
 File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy1_English.pdf, page 3>
@@ -2566,8 +2674,8 @@ File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy1_English.pdf, page3 us
 ed on input line 55.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [45 <./Appendices/Tutorial_UserStudy1_English.pdf>]
-<./Appendices/Tutorial_UserStudy1_English.pdf, id=677, page=4, 597.63278pt x 84
+ [51 <./Appendices/Tutorial_UserStudy1_English.pdf>]
+<./Appendices/Tutorial_UserStudy1_English.pdf, id=763, page=4, 597.63278pt x 84
 4.95674pt>
 File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy1_English.pdf, page 4>
@@ -2586,8 +2694,8 @@ File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy1_English.pdf, page4 us
 ed on input line 55.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [46 <./Appendices/Tutorial_UserStudy1_English.pdf>]
-<./Appendices/Tutorial_UserStudy1_English.pdf, id=687, page=5, 597.63278pt x 84
+ [52 <./Appendices/Tutorial_UserStudy1_English.pdf>]
+<./Appendices/Tutorial_UserStudy1_English.pdf, id=773, page=5, 597.63278pt x 84
 4.95674pt>
 File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy1_English.pdf, page 5>
@@ -2606,8 +2714,8 @@ File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy1_English.pdf, page5 us
 ed on input line 55.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [47 <./Appendices/Tutorial_UserStudy1_English.pdf>]
-<./Appendices/Tutorial_UserStudy1_English.pdf, id=703, page=6, 597.63278pt x 84
+ [53 <./Appendices/Tutorial_UserStudy1_English.pdf>]
+<./Appendices/Tutorial_UserStudy1_English.pdf, id=789, page=6, 597.63278pt x 84
 4.95674pt>
 File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy1_English.pdf, page 6>
@@ -2626,8 +2734,8 @@ File: ./Appendices/Tutorial_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy1_English.pdf, page6 us
 ed on input line 55.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [48 <./Appendices/Tutorial_UserStudy1_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=713, 597.55246pt x 845.07718p
+ [54 <./Appendices/Tutorial_UserStudy1_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=799, 597.55246pt x 845.07718p
 t>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf>
@@ -2641,7 +2749,7 @@ Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf used on i
 nput line 56.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=716, page=1, 597.55246pt x 84
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=802, page=1, 597.55246pt x 84
 5.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 1>
@@ -2672,8 +2780,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page1 us
 ed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [49 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=758, page=2, 597.55246pt x 84
+ [55 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=844, page=2, 597.55246pt x 84
 5.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 2>
@@ -2692,8 +2800,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page2 us
 ed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [50 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=767, page=3, 597.55246pt x 84
+ [56 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=853, page=3, 597.55246pt x 84
 5.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 3>
@@ -2712,8 +2820,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page3 us
 ed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [51 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=775, page=4, 597.55246pt x 84
+ [57 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=861, page=4, 597.55246pt x 84
 5.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 4>
@@ -2732,8 +2840,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page4 us
 ed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [52 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=782, page=5, 597.55246pt x 84
+ [58 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=868, page=5, 597.55246pt x 84
 5.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 5>
@@ -2752,8 +2860,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page5 us
 ed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [53 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=788, page=6, 597.55246pt x 84
+ [59 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=874, page=6, 597.55246pt x 84
 5.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 6>
@@ -2772,8 +2880,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page6 us
 ed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [54 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=798, page=7, 597.55246pt x 84
+ [60 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=884, page=7, 597.55246pt x 84
 5.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 7>
@@ -2792,8 +2900,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page7 us
 ed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [55 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=806, page=8, 597.55246pt x 84
+ [61 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=892, page=8, 597.55246pt x 84
 5.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 8>
@@ -2812,8 +2920,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page8 us
 ed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [56 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=822, page=9, 597.55246pt x 84
+ [62 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=908, page=9, 597.55246pt x 84
 5.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 9>
@@ -2832,8 +2940,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page9 us
 ed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [57 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=830, page=10, 597.55246pt x 8
+ [63 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=916, page=10, 597.55246pt x 8
 45.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 10>
@@ -2852,8 +2960,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page10 u
 sed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [58 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=838, page=11, 597.55246pt x 8
+ [64 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=924, page=11, 597.55246pt x 8
 45.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 11>
@@ -2872,8 +2980,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page11 u
 sed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [59 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Tutorial_UserStudy2_English.pdf, id=846, page=12, 597.55246pt x 8
+ [65 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Tutorial_UserStudy2_English.pdf, id=932, page=12, 597.55246pt x 8
 45.07718pt>
 File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
  <use ./Appendices/Tutorial_UserStudy2_English.pdf, page 12>
@@ -2892,8 +3000,8 @@ File: ./Appendices/Tutorial_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Tutorial_UserStudy2_English.pdf, page12 u
 sed on input line 56.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [60 <./Appendices/Tutorial_UserStudy2_English.pdf>]
-<./Appendices/Documentation_UserStudy1_English.pdf, id=853, 597.63278pt x 844.9
+ [66 <./Appendices/Tutorial_UserStudy2_English.pdf>]
+<./Appendices/Documentation_UserStudy1_English.pdf, id=939, 597.63278pt x 844.9
 5674pt>
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type pdf)
 
@@ -2909,7 +3017,7 @@ Package pdftex.def Info: ./Appendices/Documentation_UserStudy1_English.pdf used
  on input line 59.
 (pdftex.def)             Requested size: 597.63132pt x 844.95468pt.
 
-<./Appendices/Documentation_UserStudy1_English.pdf, id=856, page=1, 597.63278pt
+<./Appendices/Documentation_UserStudy1_English.pdf, id=942, page=1, 597.63278pt
  x 844.95674pt>
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type pdf)
 
@@ -2946,7 +3054,7 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Documentation_UserStudy1_English.pdf, pag
 e1 used on input line 59.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [61 <./Appendices/Documentation_UserStudy1_English.pdf>]
+ [67 <./Appendices/Documentation_UserStudy1_English.pdf>]
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type pdf)
 
 
@@ -2962,7 +3070,7 @@ Package pdftex.def Info: ./Appendices/Documentation_UserStudy1_English.pdf used
  on input line 59.
 (pdftex.def)             Requested size: 597.63132pt x 844.95468pt.
 
-<./Appendices/Documentation_UserStudy1_English.pdf, id=891, page=2, 597.63278pt
+<./Appendices/Documentation_UserStudy1_English.pdf, id=977, page=2, 597.63278pt
  x 844.95674pt>
 File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type pdf)
 
@@ -2999,8 +3107,8 @@ File: ./Appendices/Documentation_UserStudy1_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Documentation_UserStudy1_English.pdf, pag
 e2 used on input line 59.
 (pdftex.def)             Requested size: 909.9524pt x 1286.52652pt.
- [62 <./Appendices/Documentation_UserStudy1_English.pdf>]
-<./Appendices/Documentation_UserStudy2_English.pdf, id=899, 597.55246pt x 845.0
+ [68 <./Appendices/Documentation_UserStudy1_English.pdf>]
+<./Appendices/Documentation_UserStudy2_English.pdf, id=985, 597.55246pt x 845.0
 7718pt>
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
 
@@ -3016,7 +3124,7 @@ Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf used
  on input line 60.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<./Appendices/Documentation_UserStudy2_English.pdf, id=902, page=1, 597.55246pt
+<./Appendices/Documentation_UserStudy2_English.pdf, id=988, page=1, 597.55246pt
  x 845.07718pt>
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
 
@@ -3053,153 +3161,153 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
 e1 used on input line 60.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [63 <./Appendices/Documentation_UserStudy2_English.pdf>]
-<./Appendices/Documentation_UserStudy2_English.pdf, id=950, page=2, 597.55246pt
- x 845.07718pt>
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 2>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e2 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 2>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e2 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 2>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e2 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [64 <./Appendices/Documentation_UserStudy2_English.pdf>]
-<./Appendices/Documentation_UserStudy2_English.pdf, id=956, page=3, 597.55246pt
- x 845.07718pt>
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 3>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e3 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 3>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e3 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 3>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e3 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [65 <./Appendices/Documentation_UserStudy2_English.pdf>]
-<./Appendices/Documentation_UserStudy2_English.pdf, id=962, page=4, 597.55246pt
- x 845.07718pt>
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 4>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e4 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 4>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e4 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 4>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e4 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [66 <./Appendices/Documentation_UserStudy2_English.pdf>]
-<./Appendices/Documentation_UserStudy2_English.pdf, id=969, page=5, 597.55246pt
- x 845.07718pt>
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 5>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e5 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 5>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e5 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 5>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e5 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [67 <./Appendices/Documentation_UserStudy2_English.pdf>]
-<./Appendices/Documentation_UserStudy2_English.pdf, id=975, page=6, 597.55246pt
- x 845.07718pt>
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 6>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e6 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 6>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e6 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 6>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e6 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [68 <./Appendices/Documentation_UserStudy2_English.pdf>]
-<./Appendices/Documentation_UserStudy2_English.pdf, id=982, page=7, 597.55246pt
- x 845.07718pt>
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 7>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e7 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 7>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e7 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
-File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
-
-
-<use ./Appendices/Documentation_UserStudy2_English.pdf, page 7>
-Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
-e7 used on input line 60.
-(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
  [69 <./Appendices/Documentation_UserStudy2_English.pdf>]
-<./Appendices/Documentation_UserStudy2_English.pdf, id=989, page=8, 597.55246pt
- x 845.07718pt>
+<./Appendices/Documentation_UserStudy2_English.pdf, id=1036, page=2, 597.55246p
+t x 845.07718pt>
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 2>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e2 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 2>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e2 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 2>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e2 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+ [70 <./Appendices/Documentation_UserStudy2_English.pdf>]
+<./Appendices/Documentation_UserStudy2_English.pdf, id=1042, page=3, 597.55246p
+t x 845.07718pt>
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 3>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e3 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 3>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e3 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 3>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e3 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+ [71 <./Appendices/Documentation_UserStudy2_English.pdf>]
+<./Appendices/Documentation_UserStudy2_English.pdf, id=1048, page=4, 597.55246p
+t x 845.07718pt>
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 4>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e4 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 4>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e4 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 4>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e4 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+ [72 <./Appendices/Documentation_UserStudy2_English.pdf>]
+<./Appendices/Documentation_UserStudy2_English.pdf, id=1055, page=5, 597.55246p
+t x 845.07718pt>
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 5>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e5 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 5>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e5 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 5>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e5 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+ [73 <./Appendices/Documentation_UserStudy2_English.pdf>]
+<./Appendices/Documentation_UserStudy2_English.pdf, id=1061, page=6, 597.55246p
+t x 845.07718pt>
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 6>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e6 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 6>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e6 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 6>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e6 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+ [74 <./Appendices/Documentation_UserStudy2_English.pdf>]
+<./Appendices/Documentation_UserStudy2_English.pdf, id=1068, page=7, 597.55246p
+t x 845.07718pt>
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 7>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e7 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 7>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e7 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
+
+
+<use ./Appendices/Documentation_UserStudy2_English.pdf, page 7>
+Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
+e7 used on input line 60.
+(pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
+ [75 <./Appendices/Documentation_UserStudy2_English.pdf>]
+<./Appendices/Documentation_UserStudy2_English.pdf, id=1075, page=8, 597.55246p
+t x 845.07718pt>
 File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
 
 
@@ -3221,14 +3329,14 @@ File: ./Appendices/Documentation_UserStudy2_English.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Documentation_UserStudy2_English.pdf, pag
 e8 used on input line 60.
 (pdftex.def)             Requested size: 909.83011pt x 1286.7099pt.
- [70 <./Appendices/Documentation_UserStudy2_English.pdf>])
+ [76 <./Appendices/Documentation_UserStudy2_English.pdf>])
 Package tocbasic Info: character protrusion at lof deactivated on input line 51
 .
  (main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [71
+ [77
 
 
 ]
@@ -3238,7 +3346,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 52
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [72
+ [78
 
 
 ]
@@ -3254,7 +3362,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [73
+ [79
 
 
 ]
@@ -3265,14 +3373,14 @@ Overfull \hbox (9.77342pt too wide) in paragraph at lines 54--54
  []
 
 No complaints by nag.
-[74]
+[80]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 91E23BC052DC82D941641D0867B5A6A7;1915.
+(rerunfilecheck)             Checksum: C8F74F31AC29CDE374D5E9FBB6B0BDB0;1915.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3282,11 +3390,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47548 strings out of 493335
- 1041846 string characters out of 3136728
- 1636672 words of memory out of 3000000
- 49898 multiletter control sequences out of 15000+200000
- 55290 words of font info for 241 fonts, out of 3000000 for 9000
+ 47749 strings out of 493335
+ 1045609 string characters out of 3136728
+ 1639199 words of memory out of 3000000
+ 50026 multiletter control sequences out of 15000+200000
+ 56775 words of font info for 262 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,83p,10458b,1895s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
@@ -3297,9 +3405,9 @@ MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (81 pages, 3942476 bytes).
+Output written on main.pdf (87 pages, 6625722 bytes).
 PDF statistics:
- 1089 PDF objects out of 1200 (max. 8388607)
- 192 named destinations out of 1000 (max. 500000)
- 34431 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1206 PDF objects out of 1440 (max. 8388607)
+ 220 named destinations out of 1000 (max. 500000)
+ 34486 words of extra memory for PDF output out of 35830 (max. 10000000)
 

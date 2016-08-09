@@ -22,118 +22,118 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\nonumberline Lifeline}{4}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Storynexus.com}{4}{section*.4}
+\contentsline {paragraph}{\nonumberline Storynexus.com}{4}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Ludus}{5}{section*.5}
+\contentsline {paragraph}{\nonumberline Ludus}{5}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Frameworks}{5}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Frameworks}{6}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Quest \& Squiffy}{5}{section*.6}
+\contentsline {paragraph}{\nonumberline Quest \& Squiffy}{6}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Other}{6}{section*.7}
+\contentsline {paragraph}{\nonumberline Other}{7}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Literature}{6}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Literature}{7}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline On E-Learning and Interactive Storytelling technology}{6}{section*.8}
+\contentsline {paragraph}{\nonumberline On E-Learning and Interactive Storytelling technology}{7}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline On usability and user experience}{7}{section*.9}
+\contentsline {paragraph}{\nonumberline On usability and user experience}{8}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Development}{9}{chapter.3}
+\contentsline {chapter}{\numberline {3}Development}{10}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Concept}{9}{section.3.1}
+\contentsline {section}{\numberline {3.1}Concept}{10}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Technical constraints}{9}{section*.10}
+\contentsline {paragraph}{\nonumberline Technical constraints}{10}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Layers}{9}{section*.11}
+\contentsline {paragraph}{\nonumberline Layers}{10}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Modules}{10}{section*.12}
+\contentsline {paragraph}{\nonumberline Modules}{11}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Editor interface}{11}{section*.13}
+\contentsline {paragraph}{\nonumberline Editor interface}{12}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Final structure}{11}{section.3.2}
+\contentsline {section}{\numberline {3.2}Final structure}{13}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Overview}{11}{section*.14}
+\contentsline {paragraph}{\nonumberline Overview}{13}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Module system}{12}{section*.15}
+\contentsline {paragraph}{\nonumberline Module system}{15}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Editor interface}{15}{section*.16}
+\contentsline {paragraph}{\nonumberline Editor interface}{19}{section*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Stumbling blocks}{15}{section.3.3}
+\contentsline {section}{\numberline {3.3}Stumbling blocks}{21}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Game UI}{15}{section*.17}
+\contentsline {paragraph}{\nonumberline Game UI}{21}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Inspector heritage}{16}{section*.18}
+\contentsline {paragraph}{\nonumberline Inspector heritage}{22}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline User study}{16}{section*.19}
+\contentsline {paragraph}{\nonumberline User study}{22}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Accessibility and user perception}{17}{chapter.4}
+\contentsline {chapter}{\numberline {4}Accessibility and user perception}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Study procedure}{17}{section.4.1}
+\contentsline {section}{\numberline {4.1}Study procedure}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Orientation}{17}{section*.20}
+\contentsline {paragraph}{\nonumberline Orientation}{23}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Tutorial}{18}{section*.21}
+\contentsline {paragraph}{\nonumberline Tutorial}{24}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Documentation}{18}{section*.22}
+\contentsline {paragraph}{\nonumberline Documentation}{24}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Survey}{18}{section*.23}
+\contentsline {paragraph}{\nonumberline Survey}{24}{section*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Study files}{18}{section*.24}
+\contentsline {paragraph}{\nonumberline Study files}{24}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}First user study}{18}{section.4.2}
+\contentsline {section}{\numberline {4.2}First user study}{24}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Basics}{19}{section*.25}
+\contentsline {paragraph}{\nonumberline Basics}{25}{section*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Interface}{19}{section*.27}
+\contentsline {paragraph}{\nonumberline Interface}{25}{section*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Performance}{21}{section*.29}
+\contentsline {paragraph}{\nonumberline Performance}{27}{section*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Documentation/Tutorial}{21}{section*.31}
+\contentsline {paragraph}{\nonumberline Documentation/Tutorial}{27}{section*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline General impression \& Additional}{22}{section*.33}
+\contentsline {paragraph}{\nonumberline General impression \& Additional}{28}{section*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Second user study}{23}{section.4.3}
+\contentsline {section}{\numberline {4.3}Second user study}{29}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Changes}{23}{section*.34}
+\contentsline {paragraph}{\nonumberline Changes}{29}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Lack of participants}{23}{section*.35}
+\contentsline {paragraph}{\nonumberline Lack of participants}{29}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Basics}{24}{section*.36}
+\contentsline {paragraph}{\nonumberline Basics}{30}{section*.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Interface}{24}{section*.37}
+\contentsline {paragraph}{\nonumberline Interface}{30}{section*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Performance}{24}{section*.38}
+\contentsline {paragraph}{\nonumberline Performance}{30}{section*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Documentation/Tutorial}{24}{section*.39}
+\contentsline {paragraph}{\nonumberline Documentation/Tutorial}{30}{section*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline General impression \& Additional}{25}{section*.40}
+\contentsline {paragraph}{\nonumberline General impression \& Additional}{30}{section*.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Statistical trend}{25}{section*.41}
+\contentsline {paragraph}{\nonumberline Statistical trend}{31}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline After the second user study}{25}{section*.42}
+\contentsline {paragraph}{\nonumberline After the second user study}{31}{section*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Closing words}{26}{chapter.5}
+\contentsline {chapter}{\numberline {5}Closing words}{32}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Conclusions from surveys}{26}{section.5.1}
+\contentsline {section}{\numberline {5.1}Conclusions from surveys}{32}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Project conclusion}{26}{section.5.2}
+\contentsline {section}{\numberline {5.2}Project conclusion}{32}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Outlook and possible future work}{27}{section.5.3}
+\contentsline {section}{\numberline {5.3}Outlook and possible future work}{33}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{28}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendix}{34}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}User study documents}{28}{section.A.1}
+\contentsline {section}{\numberline {A.1}User study documents}{34}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Orientation}{29}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.1}Orientation}{35}{subsection.A.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Survey form}{31}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.2}Survey form}{37}{subsection.A.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.3}Tutorial}{43}{subsection.A.1.3}
+\contentsline {subsection}{\numberline {A.1.3}Tutorial}{49}{subsection.A.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.4}Documentation}{61}{subsection.A.1.4}
+\contentsline {subsection}{\numberline {A.1.4}Documentation}{67}{subsection.A.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{71}{chapter*.43}
+\contentsline {chapter}{\nonumberline List of Figures}{77}{chapter*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{72}{chapter*.44}
+\contentsline {chapter}{\nonumberline List of Tables}{78}{chapter*.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{73}{chapter*.45}
+\contentsline {chapter}{\nonumberline Bibliography}{79}{chapter*.56}
